@@ -1,0 +1,49 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-32",
+  "constrains": [],
+  "depends": [
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "C:\\ProgramData\\Anaconda3\\pkgs\\wincertstore-0.2-py36_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/wincertstore.cpython-36.pyc",
+    "Lib/site-packages/wincertstore-0.2-py3.6.egg-info",
+    "Lib/site-packages/wincertstore.py"
+  ],
+  "fn": "wincertstore-0.2-py36_0.tar.bz2",
+  "license": "PSF 2",
+  "link": {
+    "source": "C:\\ProgramData\\Anaconda3\\pkgs\\wincertstore-0.2-py36_0",
+    "type": 1
+  },
+  "md5": "cf67b3a48fc467fb21a2843de9bceb12",
+  "name": "wincertstore",
+  "package_tarball_full_path": "C:\\ProgramData\\Anaconda3\\pkgs\\wincertstore-0.2-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/wincertstore.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/wincertstore-0.2-py3.6.egg-info",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/wincertstore.py",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c1f023d4df62cf42e1695557313796667b443515a19fb3577f74823c3e4f0be2",
+  "size": 11623,
+  "subdir": "win-32",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-32/wincertstore-0.2-py36_0.tar.bz2",
+  "version": "0.2"
+}

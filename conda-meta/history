@@ -1,0 +1,18 @@
+==> 2020-01-09 08:17:34 <==
+# cmd: C:\ProgramData\Anaconda3\Scripts\conda-script.py create --name WordAnalysis
+# conda version: 4.8.1
+==> 2020-01-09 08:20:56 <==
+# cmd: C:\ProgramData\Anaconda3\Scripts\conda-script.py install textblob
+# conda version: 4.8.1
++conda-forge/noarch::nltk-3.4.4-py_0
++conda-forge/noarch::textblob-0.15.3-py_0
++conda-forge/win-32::certifi-2018.4.16-py36_0
++conda-forge/win-32::pip-10.0.1-py36_0
++conda-forge/win-32::python-3.6.5-1
++conda-forge/win-32::setuptools-39.0.1-py36_0
++conda-forge/win-32::six-1.11.0-py36_1
++conda-forge/win-32::wheel-0.31.0-py36_0
++conda-forge/win-32::wincertstore-0.2-py36_0
++defaults/win-32::vc-14.1-h0510ff6_4
++defaults/win-32::vs2015_runtime-14.16.27012-hf0eaf9b_1
+# update specs: ['textblob']
