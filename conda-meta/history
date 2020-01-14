@@ -16,3 +16,53 @@
 +defaults/win-32::vc-14.1-h0510ff6_4
 +defaults/win-32::vs2015_runtime-14.16.27012-hf0eaf9b_1
 # update specs: ['textblob']
+==> 2020-01-14 08:26:02 <==
+# cmd: C:\ProgramData\Anaconda3\Scripts\conda-script.py install -c conda-forge python-twitter
+# conda version: 4.8.1
++conda-forge/noarch::asn1crypto-0.24.0-py_1
++conda-forge/noarch::blinker-1.4-py_1
++conda-forge/noarch::future-0.16.0-py_1
++conda-forge/noarch::idna-2.7-py_1
++conda-forge/noarch::oauthlib-3.0.1-py_0
++conda-forge/noarch::pycparser-2.19-py_0
++conda-forge/noarch::pyjwt-1.7.1-py_0
++conda-forge/noarch::python-twitter-3.5-py_0
++conda-forge/noarch::requests-oauthlib-1.2.0-py_0
++conda-forge/win-32::ca-certificates-2018.4.16-0
++conda-forge/win-32::cffi-1.11.5-py36_0
++conda-forge/win-32::cryptography-2.2.1-py36_0
++conda-forge/win-32::openssl-1.0.2o-vc14_0
++conda-forge/win-32::requests-2.12.5-py36_0
+# update specs: ['python-twitter']
+==> 2020-01-14 08:57:22 <==
+# cmd: C:\ProgramData\Anaconda3\Scripts\conda-script.py remove python-twitter
+# conda version: 4.8.1
+-conda-forge/noarch::asn1crypto-0.24.0-py_1
+-conda-forge/noarch::blinker-1.4-py_1
+-conda-forge/noarch::future-0.16.0-py_1
+-conda-forge/noarch::idna-2.7-py_1
+-conda-forge/noarch::oauthlib-3.0.1-py_0
+-conda-forge/noarch::pycparser-2.19-py_0
+-conda-forge/noarch::pyjwt-1.7.1-py_0
+-conda-forge/noarch::python-twitter-3.5-py_0
+-conda-forge/noarch::requests-oauthlib-1.2.0-py_0
+-conda-forge/win-32::cffi-1.11.5-py36_0
+-conda-forge/win-32::cryptography-2.2.1-py36_0
+-conda-forge/win-32::requests-2.12.5-py36_0
+# remove specs: ['python-twitter']
+==> 2020-01-14 08:57:58 <==
+# cmd: C:\ProgramData\Anaconda3\Scripts\conda-script.py install python-twitter
+# conda version: 4.8.1
++conda-forge/noarch::asn1crypto-0.24.0-py_1
++conda-forge/noarch::blinker-1.4-py_1
++conda-forge/noarch::future-0.16.0-py_1
++conda-forge/noarch::idna-2.7-py_1
++conda-forge/noarch::oauthlib-3.0.1-py_0
++conda-forge/noarch::pycparser-2.19-py_0
++conda-forge/noarch::pyjwt-1.7.1-py_0
++conda-forge/noarch::python-twitter-3.5-py_0
++conda-forge/noarch::requests-oauthlib-1.2.0-py_0
++conda-forge/win-32::cffi-1.11.5-py36_0
++conda-forge/win-32::cryptography-2.2.1-py36_0
++conda-forge/win-32::requests-2.12.5-py36_0
+# update specs: ['python-twitter']
