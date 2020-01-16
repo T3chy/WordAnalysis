@@ -62,7 +62,6 @@ else:
     get_tweets(at)
     with open('listfile.txt') as f:
         tweet1 = f.readline()
-
 tweetb = TextBlob(str(tweet1))
 print("here's your most recent tweet: " + tweet1)
 if not str(tweetb) == tweetb.correct():
@@ -90,5 +89,15 @@ sumnum = 0
 for n in polars:
     sumnum = sumnum + n
 avgpolar = sumnum / len(polars)
-print("your average polarity is " + avgpolar)
+if avgpolar > 0 and avgpolar < 2:
+    polar = "low!"
+elif avgpolar > 2 and avgpolar < 4:
+    polar = "eh, pretty low!"
+elif avgpolar > 4 and avgpolar < 6:
+    polar = "somewhat high"
+elif avgpolar > 6 and avgpolar < 8:
+    polar = "pretty gosh darn high"
+elif avgpolar > 8:
+    polar = "woah there bucko, that's pretty polar"
+print("your average polarity is " + polar)
 
