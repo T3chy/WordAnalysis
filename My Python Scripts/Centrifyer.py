@@ -12,7 +12,7 @@ access_secret = "GTa4it7WQ4pXnvu1klWlFnbMFfUSVVBw8gvu0sipWGeD7"
 
 
 # Function to extract tweets
-def get_tweets(username, numtweets):
+def get_tweets(username):
     # Authorization to consumer key and consumer secret
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
@@ -23,7 +23,7 @@ def get_tweets(username, numtweets):
     api = tweepy.API(auth)
 
     # 200 tweets to be extracted
-    number_of_tweets = numtweets
+    number_of_tweets = 200
     tweets = api.user_timeline(screen_name=username)
 
     # Empty Array
