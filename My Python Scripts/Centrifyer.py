@@ -4,6 +4,7 @@ from textblob import Blobber
 from textblob.sentiments import NaiveBayesAnalyzer
 import tweepy
 import re
+import json
 
 consumer_key = "wBlchO1ZEiGnv1ly1wmVplNr5"
 consumer_secret = "iyHcmJITDblWRf4Zj46r19UVbngnU8DoXkBoXCtchZpZ7kF6HT"
@@ -80,3 +81,14 @@ if not str(tweetb) == tweetb.correct():
     else:
         print("aight lol you do you")
 print("lets see how polarizing you are")
+polars = []
+with open('listfile.txt') as f:
+    for t in f:
+        t = TextBlob(str(t))
+        polars.append(t.sentiment.polarity)
+sumnum = 0
+for n in polars:
+    sumnum = sumnum + n
+avgpolar = sumnum / len(polars)
+print("your average polarity is " + avgpolar)
+
