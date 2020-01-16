@@ -54,7 +54,7 @@ class build_ext(Command):
 
     sep_by = " (separated by '%s')" % os.pathsep
     user_options = [
-        ('build-lib=', 'b',
+        ('build-Lib=', 'b',
          "directory for compiled extension modules"),
         ('build-temp=', 't',
          "directory for temporary files (build by-products)"),
@@ -62,7 +62,7 @@ class build_ext(Command):
          "platform name to cross-compile for, if supported "
          "(default: %s)" % get_platform()),
         ('inplace', 'i',
-         "ignore build-lib and put compiled extensions into the source " +
+         "ignore build-Lib and put compiled extensions into the source " +
          "directory alongside your pure Python modules"),
         ('include-dirs=', 'I',
          "list of directories to search for header files" + sep_by),
@@ -204,7 +204,7 @@ class build_ext(Command):
             if _sys_home:
                 self.library_dirs.append(_sys_home)
 
-            # Use the .lib files for the correct architecture
+            # Use the .Lib files for the correct architecture
             if self.plat_name == 'win32':
                 suffix = 'win32'
             else:
@@ -220,7 +220,7 @@ class build_ext(Command):
         if sys.platform[:6] == 'cygwin' or sys.platform[:6] == 'atheos':
             if sys.executable.startswith(os.path.join(sys.exec_prefix, "bin")):
                 # building third party extensions
-                self.library_dirs.append(os.path.join(sys.prefix, "lib",
+                self.library_dirs.append(os.path.join(sys.prefix, "Lib",
                                                       "python" + get_python_version(),
                                                       "config"))
             else:
@@ -261,7 +261,7 @@ class build_ext(Command):
         # Finally add the user include and library directories if requested
         if self.user:
             user_include = os.path.join(USER_BASE, "include")
-            user_lib = os.path.join(USER_BASE, "lib")
+            user_lib = os.path.join(USER_BASE, "Lib")
             if os.path.isdir(user_include):
                 self.include_dirs.append(user_include)
             if os.path.isdir(user_lib):

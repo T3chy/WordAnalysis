@@ -91,7 +91,7 @@ class DistributionTestCase(support.LoggingSilencer,
             print(("[install]\n"
                    "install-base = {0}\n"
                    "install-platbase = {0}\n"
-                   "install-lib = {0}\n"
+                   "install-Lib = {0}\n"
                    "install-platlib = {0}\n"
                    "install-purelib = {0}\n"
                    "install-headers = {0}\n"

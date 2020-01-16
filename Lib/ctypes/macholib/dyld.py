@@ -22,10 +22,10 @@ DEFAULT_FRAMEWORK_FALLBACK = [
 ]
 
 DEFAULT_LIBRARY_FALLBACK = [
-    os.path.expanduser("~/lib"),
-    "/usr/local/lib",
-    "/lib",
-    "/usr/lib",
+    os.path.expanduser("~/Lib"),
+    "/usr/local/Lib",
+    "/Lib",
+    "/usr/Lib",
 ]
 
 def dyld_env(env, var):
@@ -156,7 +156,7 @@ def framework_find(fn, executable_path=None, env=None):
 
 def test_dyld_find():
     env = {}
-    assert dyld_find('libSystem.dylib') == '/usr/lib/libSystem.dylib'
+    assert dyld_find('libSystem.dylib') == '/usr/Lib/libSystem.dylib'
     assert dyld_find('System.framework/System') == '/System/Library/Frameworks/System.framework/System'
 
 if __name__ == '__main__':

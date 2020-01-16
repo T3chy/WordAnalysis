@@ -1,11 +1,11 @@
 """Locale support module.
 
-The module provides low-level access to the C lib's locale APIs and adds high
+The module provides low-level access to the C Lib's locale APIs and adds high
 level number formatting APIs as well as a locale aliasing engine to complement
 these.
 
 The aliasing engine includes support for many commonly used locale names and
-maps them to values suitable for passing to the C lib's setlocale() function. It
+maps them to values suitable for passing to the C Lib's setlocale() function. It
 also includes default encodings for all supported locale names.
 
 """
@@ -347,7 +347,7 @@ def _replace_encoding(code, encoding):
         langname = code[:code.index('.')]
     else:
         langname = code
-    # Convert the encoding to a C lib compatible encoding string
+    # Convert the encoding to a C Lib compatible encoding string
     norm_encoding = encodings.normalize_encoding(encoding)
     #print('norm encoding: %r' % norm_encoding)
     norm_encoding = encodings.aliases.aliases.get(norm_encoding.lower(),
@@ -587,7 +587,7 @@ def setlocale(category, locale=None):
         or None.
 
         Iterables are converted to strings using the locale aliasing
-        engine.  Locale strings are passed directly to the C lib.
+        engine.  Locale strings are passed directly to the C Lib.
 
         category may be given as one of the LC_* values.
 
@@ -649,14 +649,14 @@ else:
 # The following data was extracted from the locale.alias file which
 # comes with X11 and then hand edited removing the explicit encoding
 # definitions and adding some more aliases. The file is usually
-# available as /usr/lib/X11/locale/locale.alias.
+# available as /usr/Lib/X11/locale/locale.alias.
 #
 
 #
 # The local_encoding_alias table maps lowercase encoding alias names
 # to C locale encoding names (case-sensitive). Note that normalize()
 # first looks up the encoding in the encodings.aliases dictionary and
-# then applies this mapping to find the correct C lib name for the
+# then applies this mapping to find the correct C Lib name for the
 # encoding.
 #
 locale_encoding_alias = {
@@ -677,7 +677,7 @@ locale_encoding_alias = {
     '88595':                        'ISO8859-5',
     '885915':                       'ISO8859-15',
 
-    # Mappings from Python codec names to C lib encoding names
+    # Mappings from Python codec names to C Lib encoding names
     'ascii':                        'ISO8859-1',
     'latin_1':                      'ISO8859-1',
     'iso8859_1':                    'ISO8859-1',

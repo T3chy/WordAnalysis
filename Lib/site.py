@@ -7,9 +7,9 @@
 This will append site-specific paths to the module search path.  On
 Unix (including Mac OSX), it starts with sys.prefix and
 sys.exec_prefix (if different) and appends
-lib/python<version>/site-packages.
+Lib/python<version>/site-packages.
 On other platforms (such as Windows), it tries each of the
-prefixes directly, as well as with lib/site-packages appended.  The
+prefixes directly, as well as with Lib/site-packages appended.  The
 resulting directories, if they exist, are appended to sys.path, and
 also inspected for path configuration files.
 
@@ -34,7 +34,7 @@ sys.path more than once.  Blank lines and lines beginning with
 '#' are skipped. Lines starting with 'import' are executed.
 
 For example, suppose sys.prefix and sys.exec_prefix are set to
-/usr/local and there is a directory /usr/local/lib/python2.5/site-packages
+/usr/local and there is a directory /usr/local/Lib/python2.5/site-packages
 with three subdirectories, foo, bar and spam, and two path
 configuration files, foo.pth and bar.pth.  Assume foo.pth contains the
 following:
@@ -51,8 +51,8 @@ and bar.pth contains:
 
 Then the following directories are added to sys.path, in this order:
 
-  /usr/local/lib/python2.5/site-packages/bar
-  /usr/local/lib/python2.5/site-packages/foo
+  /usr/local/Lib/python2.5/site-packages/bar
+  /usr/local/Lib/python2.5/site-packages/foo
 
 Note that bletch is omitted because it doesn't exist; bar precedes foo
 because bar.pth comes alphabetically before foo.pth; and spam is
@@ -304,12 +304,12 @@ def getsitepackages(prefixes=None):
         seen.add(prefix)
 
         if os.sep == '/':
-            sitepackages.append(os.path.join(prefix, "lib",
+            sitepackages.append(os.path.join(prefix, "Lib",
                                         "python%d.%d" % sys.version_info[:2],
                                         "site-packages"))
         else:
             sitepackages.append(prefix)
-            sitepackages.append(os.path.join(prefix, "lib", "site-packages"))
+            sitepackages.append(os.path.join(prefix, "Lib", "site-packages"))
         if sys.platform == "darwin":
             # for framework builds *only* we add the standard Apple
             # locations.

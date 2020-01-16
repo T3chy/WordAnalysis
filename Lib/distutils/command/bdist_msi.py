@@ -203,7 +203,7 @@ class bdist_msi(Command):
             plat_specifier = ".%s-%s" % (self.plat_name, target_version)
             build = self.get_finalized_command('build')
             build.build_lib = os.path.join(build.build_base,
-                                           'lib' + plat_specifier)
+                                           'Lib' + plat_specifier)
 
         log.info("installing to %s", self.bdist_dir)
         install.ensure_finalized()

@@ -15,7 +15,7 @@ drwxr-xr-x   8 root     wheel        1024 Jan  3  1994 ..
 drwxr-xr-x   2 root     wheel        1024 Jan  3  1994 bin
 drwxr-xr-x   2 root     wheel        1024 Jan  3  1994 etc
 d-wxrwxr-x   2 ftp      wheel        1024 Sep  5 13:43 incoming
-drwxr-xr-x   2 root     wheel        1024 Nov 17  1993 lib
+drwxr-xr-x   2 root     wheel        1024 Nov 17  1993 Lib
 drwxr-xr-x   6 1094     wheel        1024 Sep 13 19:07 pub
 drwxr-xr-x   3 root     wheel        1024 Jan  3  1994 usr
 -rw-r--r--   1 root     root          312 Aug  1  1994 welcome.msg
@@ -710,7 +710,7 @@ else:
         drwxr-xr-x   2 root     wheel        1024 Jan  3  1994 bin
         drwxr-xr-x   2 root     wheel        1024 Jan  3  1994 etc
         d-wxrwxr-x   2 ftp      wheel        1024 Sep  5 13:43 incoming
-        drwxr-xr-x   2 root     wheel        1024 Nov 17  1993 lib
+        drwxr-xr-x   2 root     wheel        1024 Nov 17  1993 Lib
         drwxr-xr-x   6 1094     wheel        1024 Sep 13 19:07 pub
         drwxr-xr-x   3 root     wheel        1024 Jan  3  1994 usr
         -rw-r--r--   1 root     root          312 Aug  1  1994 welcome.msg

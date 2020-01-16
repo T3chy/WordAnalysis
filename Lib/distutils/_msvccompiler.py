@@ -210,7 +210,7 @@ class MSVCCompiler(CCompiler) :
                       _rc_extensions + _mc_extensions)
     res_extension = '.res'
     obj_extension = '.obj'
-    static_lib_extension = '.lib'
+    static_lib_extension = '.Lib'
     shared_lib_extension = '.dll'
     static_lib_format = shared_lib_format = '%s%s'
     exe_extension = '.exe'
@@ -244,7 +244,7 @@ class MSVCCompiler(CCompiler) :
         paths = self._paths.split(os.pathsep)
         self.cc = _find_exe("cl.exe", paths)
         self.linker = _find_exe("link.exe", paths)
-        self.lib = _find_exe("lib.exe", paths)
+        self.lib = _find_exe("Lib.exe", paths)
         self.rc = _find_exe("rc.exe", paths)   # resource compiler
         self.mc = _find_exe("mc.exe", paths)   # message compiler
         self.mt = _find_exe("mt.exe", paths)   # message compiler
@@ -254,13 +254,13 @@ class MSVCCompiler(CCompiler) :
             if dir:
                 self.add_include_dir(dir)
 
-        for dir in vc_env.get('lib', '').split(os.pathsep):
+        for dir in vc_env.get('Lib', '').split(os.pathsep):
             if dir:
                 self.add_library_dir(dir)
 
         self.preprocess_options = None
         # If vcruntime_redist is available, link against it dynamically. Otherwise,
-        # use /MT[d] to build statically, then switch from libucrt[d].lib to ucrt[d].lib
+        # use /MT[d] to build statically, then switch from libucrt[d].Lib to ucrt[d].Lib
         # later to dynamically link to ucrtbase but not vcruntime.
         self.compile_options = [
             '/nologo', '/Ox', '/W3', '/GL', '/DNDEBUG'
@@ -275,7 +275,7 @@ class MSVCCompiler(CCompiler) :
             '/nologo', '/INCREMENTAL:NO', '/LTCG'
         ]
         if not self._vcruntime_redist:
-            ldflags.extend(('/nodefaultlib:libucrt.lib', 'ucrt.lib'))
+            ldflags.extend(('/nodefaultlib:libucrt.Lib', 'ucrt.Lib'))
 
         ldflags_debug = [
             '/nologo', '/INCREMENTAL:NO', '/LTCG', '/DEBUG:FULL'
@@ -493,8 +493,8 @@ class MSVCCompiler(CCompiler) :
             ld_args = (ldflags + lib_opts + export_opts +
                        objects + ['/OUT:' + output_filename])
 
-            # The MSVC linker generates .lib and .exp files, which cannot be
-            # suppressed by any linker switches. The .lib files may even be
+            # The MSVC linker generates .Lib and .exp files, which cannot be
+            # suppressed by any linker switches. The .Lib files may even be
             # needed! Make sure they are generated in the temporary build
             # directory. Since they have different names for debug and release
             # builds, they can go into the same directory.

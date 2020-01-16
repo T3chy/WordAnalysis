@@ -16,7 +16,7 @@
 # -u: print usage of undefined symbols
 # If none of -cdu is specified, all are assumed.
 # Use "nm -o" to generate the input (on IRIX: "nm -Bo"),
-# e.g.: nm -o /lib/libc.a | objgraph
+# e.g.: nm -o /Lib/libc.a | objgraph
 
 
 import sys
@@ -162,7 +162,7 @@ def main():
         print('-u: print usage of undefined symbols')
         print('If none of -cdu is specified, all are assumed.')
         print('Use "nm -o" to generate the input (on IRIX: "nm -Bo"),')
-        print('e.g.: nm -o /lib/libc.a | objgraph')
+        print('e.g.: nm -o /Lib/libc.a | objgraph')
         return 1
     optu = optc = optd = 0
     for opt, void in optlist:

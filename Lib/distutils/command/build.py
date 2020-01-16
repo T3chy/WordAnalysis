@@ -24,7 +24,7 @@ class build(Command):
          "build directory for platform-neutral distributions"),
         ('build-platlib=', None,
          "build directory for platform-specific distributions"),
-        ('build-lib=', None,
+        ('build-Lib=', None,
          "build directory for all distribution (defaults to either " +
          "build-purelib or build-platlib"),
         ('build-scripts=', None,
@@ -89,14 +89,14 @@ class build(Command):
         if hasattr(sys, 'gettotalrefcount'):
             plat_specifier += '-pydebug'
 
-        # 'build_purelib' and 'build_platlib' just default to 'lib' and
-        # 'lib.<plat>' under the base build directory.  We only use one of
+        # 'build_purelib' and 'build_platlib' just default to 'Lib' and
+        # 'Lib.<plat>' under the base build directory.  We only use one of
         # them for a given distribution, though --
         if self.build_purelib is None:
-            self.build_purelib = os.path.join(self.build_base, 'lib')
+            self.build_purelib = os.path.join(self.build_base, 'Lib')
         if self.build_platlib is None:
             self.build_platlib = os.path.join(self.build_base,
-                                              'lib' + plat_specifier)
+                                              'Lib' + plat_specifier)
 
         # 'build_lib' is the actual directory that we will use for this
         # particular module distribution -- if user didn't supply it, pick

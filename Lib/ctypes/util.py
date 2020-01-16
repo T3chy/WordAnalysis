@@ -70,8 +70,8 @@ if os.name == "nt":
 if os.name == "posix" and sys.platform == "darwin":
     from ctypes.macholib.dyld import dyld_find as _dyld_find
     def find_library(name):
-        possible = ['@executable_path/../lib/lib%s.dylib' % name,
-                    'lib%s.dylib' % name,
+        possible = ['@executable_path/../Lib/Lib%s.dylib' % name,
+                    'Lib%s.dylib' % name,
                     '%s.dylib' % name,
                     '%s.framework/%s' % (name, name)]
         for name in possible:
@@ -90,7 +90,7 @@ elif os.name == "posix":
         # library name it prints out. The GCC command will fail because we
         # haven't supplied a proper program with main(), but that does not
         # matter.
-        expr = os.fsencode(r'[^\(\)\s]*lib%s\.[^\(\)\s]*' % re.escape(name))
+        expr = os.fsencode(r'[^\(\)\s]*Lib%s\.[^\(\)\s]*' % re.escape(name))
 
         c_compiler = shutil.which('gcc')
         if not c_compiler:
@@ -184,7 +184,7 @@ elif os.name == "posix":
 
         def find_library(name):
             ename = re.escape(name)
-            expr = r':-l%s\.\S+ => \S*/(lib%s\.\S+)' % (ename, ename)
+            expr = r':-l%s\.\S+ => \S*/(Lib%s\.\S+)' % (ename, ename)
             expr = os.fsencode(expr)
 
             try:
@@ -235,7 +235,7 @@ elif os.name == "posix":
                 return None
 
             for dir in paths.split(":"):
-                libfile = os.path.join(dir, "lib%s.so" % name)
+                libfile = os.path.join(dir, "Lib%s.so" % name)
                 if os.path.exists(libfile):
                     return libfile
 
@@ -262,7 +262,7 @@ elif os.name == "posix":
             abi_type = mach_map.get(machine, 'libc6')
 
             # XXX assuming GLIBC's ldconfig (with option -p)
-            regex = r'\s+(lib%s\.[^\s]+)\s+\(%s'
+            regex = r'\s+(Lib%s\.[^\s]+)\s+\(%s'
             regex = os.fsencode(regex % (re.escape(name), abi_type))
             try:
                 with subprocess.Popen(['/sbin/ldconfig', '-p'],
@@ -278,7 +278,7 @@ elif os.name == "posix":
 
         def _findLib_ld(name):
             # See issue #9998 for why this is needed
-            expr = r'[^\(\)\s]*lib%s\.[^\(\)\s]*' % re.escape(name)
+            expr = r'[^\(\)\s]*Lib%s\.[^\(\)\s]*' % re.escape(name)
             cmd = ['ld', '-t']
             libpath = os.environ.get('LD_LIBRARY_PATH')
             if libpath:
@@ -301,8 +301,8 @@ elif os.name == "posix":
         def _findLib_prefix(name):
             if not name:
                 return None
-            for fullname in (name, "lib%s.so" % (name)):
-                path = os.path.join(sys.prefix, 'lib', fullname)
+            for fullname in (name, "Lib%s.so" % (name)):
+                path = os.path.join(sys.prefix, 'Lib', fullname)
                 if os.path.exists(path):
                     return path
             return None

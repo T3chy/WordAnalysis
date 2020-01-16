@@ -640,7 +640,7 @@ class CCompiler:
         'libraries' is a list of libraries to link against.  These are
         library names, not filenames, since they're translated into
         filenames in a platform-specific way (eg. "foo" becomes "libfoo.a"
-        on Unix and "foo.lib" on DOS/Windows).  However, they can include a
+        on Unix and "foo.Lib" on DOS/Windows).  However, they can include a
         directory component, which means the linker will look in that
         specific directory rather than searching all the normal locations.
 
@@ -752,7 +752,7 @@ class CCompiler:
         raise NotImplementedError
 
     def library_option(self, lib):
-        """Return the compiler option to add 'lib' to the list of libraries
+        """Return the compiler option to add 'Lib' to the list of libraries
         linked into the shared library or executable.
         """
         raise NotImplementedError
@@ -802,9 +802,9 @@ main (int argc, char **argv) {
 
     def find_library_file (self, dirs, lib, debug=0):
         """Search the specified list of directories for a static or shared
-        library file 'lib' and return the full path to that file.  If
+        library file 'Lib' and return the full path to that file.  If
         'debug' true, look for a debugging version (if that makes sense on
-        the current platform).  Return None if 'lib' wasn't found in any of
+        the current platform).  Return None if 'Lib' wasn't found in any of
         the specified directories.
         """
         raise NotImplementedError
@@ -817,7 +817,7 @@ main (int argc, char **argv) {
     #     (eg. .c/.cpp -> .o/.obj)
     #   * library files (shared or static) are named by plugging the
     #     library name and extension into a format string, eg.
-    #     "lib%s.%s" % (lib_name, ".a") for Unix static libraries
+    #     "Lib%s.%s" % (lib_name, ".a") for Unix static libraries
     #   * executables are named by appending an extension (possibly
     #     empty) to the program name: eg. progname + ".exe" for
     #     Windows
@@ -830,12 +830,12 @@ main (int argc, char **argv) {
     #   * obj_extension -
     #     object file extension, eg. '.o' or '.obj'
     #   * static_lib_extension -
-    #     extension for static library files, eg. '.a' or '.lib'
+    #     extension for static library files, eg. '.a' or '.Lib'
     #   * shared_lib_extension -
     #     extension for shared library/object files, eg. '.so', '.dll'
     #   * static_lib_format -
     #     format string for generating static library filenames,
-    #     eg. 'lib%s.%s' or '%s.%s'
+    #     eg. 'Lib%s.%s' or '%s.%s'
     #   * shared_lib_format
     #     format string for generating shared library filenames
     #     (probably same as static_lib_format, since the extension

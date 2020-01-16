@@ -677,7 +677,7 @@ def main():
     opts = parser.parse_args()
 
     if opts.ignore_dir:
-        rel_path = 'lib', 'python{0.major}.{0.minor}'.format(sys.version_info)
+        rel_path = 'Lib', 'python{0.major}.{0.minor}'.format(sys.version_info)
         _prefix = os.path.join(sys.base_prefix, *rel_path)
         _exec_prefix = os.path.join(sys.base_exec_prefix, *rel_path)
 

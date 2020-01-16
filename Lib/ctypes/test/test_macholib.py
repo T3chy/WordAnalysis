@@ -11,7 +11,7 @@ import unittest
 # from macholib.dyld import dyld_find
 #
 # def find_lib(name):
-#      possible = ['lib'+name+'.dylib', name+'.dylib',
+#      possible = ['Lib'+name+'.dylib', name+'.dylib',
 #      name+'.framework/'+name]
 #      for dylib in possible:
 #          try:
@@ -23,9 +23,9 @@ import unittest
 # It'll have output like this:
 #
 #  >>> find_lib('pthread')
-# '/usr/lib/libSystem.B.dylib'
+# '/usr/Lib/libSystem.B.dylib'
 #  >>> find_lib('z')
-# '/usr/lib/libz.1.dylib'
+# '/usr/Lib/libz.1.dylib'
 #  >>> find_lib('IOKit')
 # '/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit'
 #
@@ -34,7 +34,7 @@ import unittest
 from ctypes.macholib.dyld import dyld_find
 
 def find_lib(name):
-    possible = ['lib'+name+'.dylib', name+'.dylib', name+'.framework/'+name]
+    possible = ['Lib'+name+'.dylib', name+'.dylib', name+'.framework/'+name]
     for dylib in possible:
         try:
             return os.path.realpath(dyld_find(dylib))
@@ -47,14 +47,14 @@ class MachOTest(unittest.TestCase):
     def test_find(self):
 
         self.assertEqual(find_lib('pthread'),
-                             '/usr/lib/libSystem.B.dylib')
+                             '/usr/Lib/libSystem.B.dylib')
 
         result = find_lib('z')
-        # Issue #21093: dyld default search path includes $HOME/lib and
-        # /usr/local/lib before /usr/lib, which caused test failures if
+        # Issue #21093: dyld default search path includes $HOME/Lib and
+        # /usr/local/Lib before /usr/Lib, which caused test failures if
         # a local copy of libz exists in one of them. Now ignore the head
         # of the path.
-        self.assertRegex(result, r".*/lib/libz\..*.*\.dylib")
+        self.assertRegex(result, r".*/Lib/libz\..*.*\.dylib")
 
         self.assertEqual(find_lib('IOKit'),
                              '/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit')

@@ -44,7 +44,7 @@ class BCPPCompiler(CCompiler) :
     # base class, CCompiler.
     src_extensions = _c_extensions + _cpp_extensions
     obj_extension = '.obj'
-    static_lib_extension = '.lib'
+    static_lib_extension = '.Lib'
     shared_lib_extension = '.dll'
     static_lib_format = shared_lib_format = '%s%s'
     exe_extension = '.exe'
@@ -265,14 +265,14 @@ class BCPPCompiler(CCompiler) :
             ld_args.append(',,')
 
             for lib in libraries:
-                # see if we find it and if there is a bcpp specific lib
-                # (xxx_bcpp.lib)
+                # see if we find it and if there is a bcpp specific Lib
+                # (xxx_bcpp.Lib)
                 libfile = self.find_library_file(library_dirs, lib, debug)
                 if libfile is None:
                     ld_args.append(lib)
                     # probably a BCPP internal library -- don't warn
                 else:
-                    # full name which prefers bcpp_xxx.lib over xxx.lib
+                    # full name which prefers bcpp_xxx.Lib over xxx.Lib
                     ld_args.append(libfile)
 
             # some default libraries
@@ -307,8 +307,8 @@ class BCPPCompiler(CCompiler) :
 
     def find_library_file (self, dirs, lib, debug=0):
         # List of effective library names to try, in order of preference:
-        # xxx_bcpp.lib is better than xxx.lib
-        # and xxx_d.lib is better than xxx.lib if debug is set
+        # xxx_bcpp.Lib is better than xxx.Lib
+        # and xxx_d.Lib is better than xxx.Lib if debug is set
         #
         # The "_bcpp" suffix is to handle a Python installation for people
         # with multiple compilers (primarily Distutils hackers, I suspect

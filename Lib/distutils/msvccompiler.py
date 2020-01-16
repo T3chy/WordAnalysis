@@ -222,7 +222,7 @@ class MSVCCompiler(CCompiler) :
                       _rc_extensions + _mc_extensions)
     res_extension = '.res'
     obj_extension = '.obj'
-    static_lib_extension = '.lib'
+    static_lib_extension = '.Lib'
     shared_lib_extension = '.dll'
     static_lib_format = shared_lib_format = '%s%s'
     exe_extension = '.exe'
@@ -252,7 +252,7 @@ class MSVCCompiler(CCompiler) :
             # smarter
             self.cc = "cl.exe"
             self.linker = "link.exe"
-            self.lib = "lib.exe"
+            self.lib = "Lib.exe"
             self.rc = "rc.exe"
             self.mc = "mc.exe"
         else:
@@ -266,10 +266,10 @@ class MSVCCompiler(CCompiler) :
 
             self.cc = self.find_exe("cl.exe")
             self.linker = self.find_exe("link.exe")
-            self.lib = self.find_exe("lib.exe")
+            self.lib = self.find_exe("Lib.exe")
             self.rc = self.find_exe("rc.exe")   # resource compiler
             self.mc = self.find_exe("mc.exe")   # message compiler
-            self.set_path_env_var('lib')
+            self.set_path_env_var('Lib')
             self.set_path_env_var('include')
 
         # extend the MSVC path with the current path
@@ -501,8 +501,8 @@ class MSVCCompiler(CCompiler) :
             ld_args = (ldflags + lib_opts + export_opts +
                        objects + ['/OUT:' + output_filename])
 
-            # The MSVC linker generates .lib and .exp files, which cannot be
-            # suppressed by any linker switches. The .lib files may even be
+            # The MSVC linker generates .Lib and .exp files, which cannot be
+            # suppressed by any linker switches. The .Lib files may even be
             # needed! Make sure they are generated in the temporary build
             # directory. Since they have different names for debug and release
             # builds, they can go into the same directory.
@@ -585,7 +585,7 @@ class MSVCCompiler(CCompiler) :
         return exe
 
     def get_msvc_paths(self, path, platform='x86'):
-        """Get a list of devstudio directories (include, lib or path).
+        """Get a list of devstudio directories (include, Lib or path).
 
         Return a list of strings.  The list will be empty if unable to
         access the registry or appropriate registry keys not found.
@@ -627,7 +627,7 @@ class MSVCCompiler(CCompiler) :
         commands.
         """
 
-        if name == "lib":
+        if name == "Lib":
             p = self.get_msvc_paths("library")
         else:
             p = self.get_msvc_paths(name)

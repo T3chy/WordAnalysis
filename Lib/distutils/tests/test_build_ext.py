@@ -136,8 +136,8 @@ class BuildExtTestCase(TempdirManager,
         # setting a value
         cmd.user = 1
 
-        # setting user based lib and include
-        lib = os.path.join(site.USER_BASE, 'lib')
+        # setting user based Lib and include
+        lib = os.path.join(site.USER_BASE, 'Lib')
         incl = os.path.join(site.USER_BASE, 'include')
         os.mkdir(lib)
         os.mkdir(incl)

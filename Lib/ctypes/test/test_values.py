@@ -12,7 +12,7 @@ class ValuesTestCase(unittest.TestCase):
 
     def test_an_integer(self):
         # This test checks and changes an integer stored inside the
-        # _ctypes_test dll/shared lib.
+        # _ctypes_test dll/shared Lib.
         ctdll = CDLL(_ctypes_test.__file__)
         an_integer = c_int.in_dll(ctdll, "an_integer")
         x = an_integer.value

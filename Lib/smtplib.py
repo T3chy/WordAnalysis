@@ -39,7 +39,7 @@ Example:
 #     by Carey Evans <c.evans@clear.net.nz>, for picky mail servers.
 # RFC 2554 (authentication) support by Gerhard Haering <gerhard@bigfoot.de>.
 #
-# This was modified from the Python 1.5 library HTTP lib.
+# This was modified from the Python 1.5 library HTTP Lib.
 
 import socket
 import io

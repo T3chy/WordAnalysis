@@ -145,7 +145,7 @@ class bdist_wininst(Command):
             plat_specifier = ".%s-%s" % (self.plat_name, target_version)
             build = self.get_finalized_command('build')
             build.build_lib = os.path.join(build.build_base,
-                                           'lib' + plat_specifier)
+                                           'Lib' + plat_specifier)
 
         # Use a custom scheme for the zip-file, because we have to decide
         # at installation time which scheme to use.

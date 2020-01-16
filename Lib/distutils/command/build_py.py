@@ -17,7 +17,7 @@ class build_py (Command):
     description = "\"build\" pure Python modules (copy to build directory)"
 
     user_options = [
-        ('build-lib=', 'd', "directory to \"build\" (copy) to"),
+        ('build-Lib=', 'd', "directory to \"build\" (copy) to"),
         ('compile', 'c', "compile .py to .pyc"),
         ('no-compile', None, "don't compile .py files [default]"),
         ('optimize=', 'O',

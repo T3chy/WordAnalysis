@@ -54,7 +54,7 @@ def _python_build():
 python_build = _python_build()
 
 # Calculate the build qualifier flags if they are defined.  Adding the flags
-# to the include and lib directories only makes sense for an installation, not
+# to the include and Lib directories only makes sense for an installation, not
 # an in-source build.
 build_flags = ''
 try:
@@ -130,7 +130,7 @@ def get_python_lib(plat_specific=0, standard_lib=0, prefix=None):
 
     if os.name == "posix":
         libpython = os.path.join(prefix,
-                                 "lib", "python" + get_python_version())
+                                 "Lib", "python" + get_python_version())
         if standard_lib:
             return libpython
         else:

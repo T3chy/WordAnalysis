@@ -15,8 +15,8 @@ class clean(Command):
     user_options = [
         ('build-base=', 'b',
          "base build directory (default: 'build.build-base')"),
-        ('build-lib=', None,
-         "build directory for all modules (default: 'build.build-lib')"),
+        ('build-Lib=', None,
+         "build directory for all modules (default: 'build.build-Lib')"),
         ('build-temp=', 't',
          "temporary build directory (default: 'build.build-temp')"),
         ('build-scripts=', None,

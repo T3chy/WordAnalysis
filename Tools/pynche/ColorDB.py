@@ -41,7 +41,7 @@ class ColorDB:
         # Maintain several dictionaries for indexing into the color database.
         # Note that while Tk supports RGB intensities of 4, 8, 12, or 16 bits,
         # for now we only support 8 bit intensities.  At least on OpenWindows,
-        # all intensities in the /usr/openwin/lib/rgb.txt file are 8-bit
+        # all intensities in the /usr/openwin/Lib/rgb.txt file are 8-bit
         #
         # key is (red, green, blue) tuple, value is (name, [aliases])
         self.__byrgb = {}
@@ -244,7 +244,7 @@ def triplet_to_brightness(rgbtuple):
 
 
 if __name__ == '__main__':
-    colordb = get_colordb('/usr/openwin/lib/rgb.txt')
+    colordb = get_colordb('/usr/openwin/Lib/rgb.txt')
     if not colordb:
         print('No parseable color database found')
         sys.exit(1)

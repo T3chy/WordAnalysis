@@ -29,15 +29,15 @@ WINDOWS_SCHEME = {
 
 INSTALL_SCHEMES = {
     'unix_prefix': {
-        'purelib': '$base/lib/python$py_version_short/site-packages',
-        'platlib': '$platbase/lib/python$py_version_short/site-packages',
+        'purelib': '$base/Lib/python$py_version_short/site-packages',
+        'platlib': '$platbase/Lib/python$py_version_short/site-packages',
         'headers': '$base/include/python$py_version_short$abiflags/$dist_name',
         'scripts': '$base/bin',
         'data'   : '$base',
         },
     'unix_home': {
-        'purelib': '$base/lib/python',
-        'platlib': '$base/lib/python',
+        'purelib': '$base/Lib/python',
+        'platlib': '$base/Lib/python',
         'headers': '$base/include/python/$dist_name',
         'scripts': '$base/bin',
         'data'   : '$base',
@@ -97,7 +97,7 @@ class install(Command):
          "installation directory for pure Python module distributions"),
         ('install-platlib=', None,
          "installation directory for non-pure module distributions"),
-        ('install-lib=', None,
+        ('install-Lib=', None,
          "installation directory for all module distributions " +
          "(overrides --install-purelib and --install-platlib)"),
 
@@ -260,10 +260,10 @@ class install(Command):
 
         # Now the interesting logic -- so interesting that we farm it out
         # to other methods.  The goal of these methods is to set the final
-        # values for the install_{lib,scripts,data,...}  options, using as
+        # values for the install_{Lib,scripts,data,...}  options, using as
         # input a heady brew of prefix, exec_prefix, home, install_base,
         # install_platbase, user-supplied versions of
-        # install_{purelib,platlib,lib,scripts,data,...}, and the
+        # install_{purelib,platlib,Lib,scripts,data,...}, and the
         # INSTALL_SCHEME dictionary above.  Phew!
 
         self.dump_dirs("pre-finalize_{unix,other}")
@@ -341,7 +341,7 @@ class install(Command):
 
         # Convert directories from Unix /-separated syntax to the local
         # convention.
-        self.convert_paths('lib', 'purelib', 'platlib',
+        self.convert_paths('Lib', 'purelib', 'platlib',
                            'scripts', 'data', 'headers',
                            'userbase', 'usersite')
 
@@ -357,7 +357,7 @@ class install(Command):
         # If a new root directory was supplied, make all the installation
         # dirs relative to it.
         if self.root is not None:
-            self.change_roots('libbase', 'lib', 'purelib', 'platlib',
+            self.change_roots('libbase', 'Lib', 'purelib', 'platlib',
                               'scripts', 'data', 'headers')
 
         self.dump_dirs("after prepending root")

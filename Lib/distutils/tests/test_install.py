@@ -41,7 +41,7 @@ class InstallTestCase(support.TempdirManager,
         dist.script_name = os.path.join(builddir, "setup.py")
         dist.command_obj["build"] = support.DummyCommand(
             build_base=builddir,
-            build_lib=os.path.join(builddir, "lib"),
+            build_lib=os.path.join(builddir, "Lib"),
             )
 
         cmd = install(dist)
@@ -56,7 +56,7 @@ class InstallTestCase(support.TempdirManager,
             expected = os.path.normpath(expected)
             self.assertEqual(got, expected)
 
-        libdir = os.path.join(destination, "lib", "python")
+        libdir = os.path.join(destination, "Lib", "python")
         check_path(cmd.install_lib, libdir)
         check_path(cmd.install_platlib, libdir)
         check_path(cmd.install_purelib, libdir)

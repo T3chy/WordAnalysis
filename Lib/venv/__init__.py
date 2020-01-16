@@ -120,18 +120,18 @@ class EnvBuilder:
         else:
             binname = 'bin'
             incpath = 'include'
-            libpath = os.path.join(env_dir, 'lib',
+            libpath = os.path.join(env_dir, 'Lib',
                                    'python%d.%d' % sys.version_info[:2],
                                    'site-packages')
         context.inc_path = path = os.path.join(env_dir, incpath)
         create_if_needed(path)
         create_if_needed(libpath)
-        # Issue 21197: create lib64 as a symlink to lib on 64-bit non-OS X POSIX
+        # Issue 21197: create lib64 as a symlink to Lib on 64-bit non-OS X POSIX
         if ((sys.maxsize > 2**32) and (os.name == 'posix') and
             (sys.platform != 'darwin')):
             link_path = os.path.join(env_dir, 'lib64')
             if not os.path.exists(link_path):   # Issue #21643
-                os.symlink('lib', link_path)
+                os.symlink('Lib', link_path)
         context.bin_path = binpath = os.path.join(env_dir, binname)
         context.bin_name = binname
         context.env_exe = os.path.join(binpath, exename)

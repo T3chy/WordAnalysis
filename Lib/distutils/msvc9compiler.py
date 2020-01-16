@@ -255,7 +255,7 @@ def query_vcvarsall(version, arch="x86"):
     """Launch vcvarsall.bat and read the settings from its environment
     """
     vcvarsall = find_vcvarsall(version)
-    interesting = set(("include", "lib", "libpath", "path"))
+    interesting = set(("include", "Lib", "libpath", "path"))
     result = {}
 
     if vcvarsall is None:
@@ -322,7 +322,7 @@ class MSVCCompiler(CCompiler) :
                       _rc_extensions + _mc_extensions)
     res_extension = '.res'
     obj_extension = '.obj'
-    static_lib_extension = '.lib'
+    static_lib_extension = '.Lib'
     shared_lib_extension = '.dll'
     static_lib_format = shared_lib_format = '%s%s'
     exe_extension = '.exe'
@@ -354,7 +354,7 @@ class MSVCCompiler(CCompiler) :
             # smarter
             self.cc = "cl.exe"
             self.linker = "link.exe"
-            self.lib = "lib.exe"
+            self.lib = "Lib.exe"
             self.rc = "rc.exe"
             self.mc = "mc.exe"
         else:
@@ -374,7 +374,7 @@ class MSVCCompiler(CCompiler) :
             vc_env = query_vcvarsall(VERSION, plat_spec)
 
             self.__paths = vc_env['path'].split(os.pathsep)
-            os.environ['lib'] = vc_env['lib']
+            os.environ['Lib'] = vc_env['Lib']
             os.environ['include'] = vc_env['include']
 
             if len(self.__paths) == 0:
@@ -385,10 +385,10 @@ class MSVCCompiler(CCompiler) :
 
             self.cc = self.find_exe("cl.exe")
             self.linker = self.find_exe("link.exe")
-            self.lib = self.find_exe("lib.exe")
+            self.lib = self.find_exe("Lib.exe")
             self.rc = self.find_exe("rc.exe")   # resource compiler
             self.mc = self.find_exe("mc.exe")   # message compiler
-            #self.set_path_env_var('lib')
+            #self.set_path_env_var('Lib')
             #self.set_path_env_var('include')
 
         # extend the MSVC path with the current path
@@ -616,8 +616,8 @@ class MSVCCompiler(CCompiler) :
             ld_args = (ldflags + lib_opts + export_opts +
                        objects + ['/OUT:' + output_filename])
 
-            # The MSVC linker generates .lib and .exp files, which cannot be
-            # suppressed by any linker switches. The .lib files may even be
+            # The MSVC linker generates .Lib and .exp files, which cannot be
+            # suppressed by any linker switches. The .Lib files may even be
             # needed! Make sure they are generated in the temporary build
             # directory. Since they have different names for debug and release
             # builds, they can go into the same directory.

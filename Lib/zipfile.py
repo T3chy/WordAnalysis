@@ -1888,7 +1888,7 @@ class PyZipFile(ZipFile):
 
         Given a module name path, return the correct file path and
         archive name, compiling if necessary.  For example, given
-        /python/lib/string, return (/python/lib/string.pyc, string).
+        /python/Lib/string, return (/python/Lib/string.pyc, string).
         """
         def _compile(file, optimize=-1):
             import py_compile

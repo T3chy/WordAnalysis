@@ -14,7 +14,7 @@ cygwin in no-cygwin mode).
 #      - create a def-file for python??.dll
 #      - create an import library using
 #             dlltool --dllname python15.dll --def python15.def \
-#                       --output-lib libpython15.a
+#                       --output-Lib libpython15.a
 #
 #   see also http://starship.python.net/crew/kernr/mingw32/Notes.html
 #
@@ -96,7 +96,7 @@ class CygwinCCompiler(UnixCCompiler):
     obj_extension = ".o"
     static_lib_extension = ".a"
     shared_lib_extension = ".dll"
-    static_lib_format = "lib%s%s"
+    static_lib_format = "Lib%s%s"
     shared_lib_format = "%s%s"
     exe_extension = ".exe"
 
@@ -206,7 +206,7 @@ class CygwinCCompiler(UnixCCompiler):
 
             # generate the filenames for these files
             def_file = os.path.join(temp_dir, dll_name + ".def")
-            lib_file = os.path.join(temp_dir, 'lib' + dll_name + ".a")
+            lib_file = os.path.join(temp_dir, 'Lib' + dll_name + ".a")
 
             # Generate .def file
             contents = [
@@ -221,7 +221,7 @@ class CygwinCCompiler(UnixCCompiler):
 
             # dllwrap uses different options than gcc/ld
             if self.linker_dll == "dllwrap":
-                extra_preargs.extend(["--output-lib", lib_file])
+                extra_preargs.extend(["--output-Lib", lib_file])
                 # for dllwrap we have to use a special option
                 extra_preargs.extend(["--def", def_file])
             # we use gcc/ld here and can be sure ld is >= 2.9.10

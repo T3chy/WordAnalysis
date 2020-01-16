@@ -12086,7 +12086,7 @@ topics = {'assert': 'The "assert" statement\n'
                  '\'sys\' (built-in)>".  If loaded from a file, they are '
                  'written as\n'
                  '"<module \'os\' from '
-                 '\'/usr/local/lib/pythonX.Y/os.pyc\'>".\n',
+                 '\'/usr/local/Lib/pythonX.Y/os.pyc\'>".\n',
  'typesseq': 'Sequence Types --- "list", "tuple", "range"\n'
              '*******************************************\n'
              '\n'

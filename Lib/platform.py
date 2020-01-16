@@ -151,7 +151,7 @@ def libc_ver(executable=sys.executable, lib='', version='',
     """ Tries to determine the libc version that the file executable
         (which defaults to the Python interpreter) is linked against.
 
-        Returns a tuple of strings (lib,version) which default to the
+        Returns a tuple of strings (Lib,version) which default to the
         given parameters in case the lookup fails.
 
         Note that the function has intimate knowledge of how different
@@ -235,9 +235,9 @@ def _dist_try_harder(distname, version, id):
                 #     where can we find the needed id ?
                 return 'OpenLinux', pkg[1], id
 
-    if os.path.isdir('/usr/lib/setup'):
+    if os.path.isdir('/usr/Lib/setup'):
         # Check for slackware version tag file (thanks to Greg Andruk)
-        verfiles = os.listdir('/usr/lib/setup')
+        verfiles = os.listdir('/usr/Lib/setup')
         for n in range(len(verfiles)-1, -1, -1):
             if verfiles[n][:14] != 'slack-version-':
                 del verfiles[n]

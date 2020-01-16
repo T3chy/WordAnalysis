@@ -66,3 +66,10 @@
 +conda-forge/win-32::cryptography-2.2.1-py36_0
 +conda-forge/win-32::requests-2.12.5-py36_0
 # update specs: ['python-twitter']
+==> 2020-01-14 09:37:13 <==
+# cmd: C:\ProgramData\Anaconda3\Scripts\conda-script.py install tweepy
+# conda version: 4.8.1
++conda-forge/noarch::tweepy-3.8.0-py_0
++conda-forge/win-32::pysocks-1.6.8-py36_1
++conda-forge/win-32::win_inet_pton-1.0.1-py36_1
+# update specs: ['tweepy']

@@ -77,7 +77,7 @@ class UnixCCompiler(CCompiler):
     shared_lib_extension = ".so"
     dylib_lib_extension = ".dylib"
     xcode_stub_lib_extension = ".tbd"
-    static_lib_format = shared_lib_format = dylib_lib_format = "lib%s%s"
+    static_lib_format = shared_lib_format = dylib_lib_format = "Lib%s%s"
     xcode_stub_lib_format = dylib_lib_format
     if sys.platform == "cygwin":
         exe_extension = ".exe"
@@ -278,9 +278,9 @@ class UnixCCompiler(CCompiler):
             # file installed on the running system, for example:
             #   /Applications/Xcode.app/Contents/Developer/Platforms/
             #       MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/
-            #       usr/lib/libedit.tbd
+            #       usr/Lib/libedit.tbd
             # vs
-            #   /usr/lib/libedit.dylib
+            #   /usr/Lib/libedit.dylib
             cflags = sysconfig.get_config_var('CFLAGS')
             m = re.search(r'-isysroot\s+(\S+)', cflags)
             if m is None:

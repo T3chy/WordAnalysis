@@ -20,10 +20,10 @@ __all__ = [
 
 _INSTALL_SCHEMES = {
     'posix_prefix': {
-        'stdlib': '{installed_base}/lib/python{py_version_short}',
-        'platstdlib': '{platbase}/lib/python{py_version_short}',
-        'purelib': '{base}/lib/python{py_version_short}/site-packages',
-        'platlib': '{platbase}/lib/python{py_version_short}/site-packages',
+        'stdlib': '{installed_base}/Lib/python{py_version_short}',
+        'platstdlib': '{platbase}/Lib/python{py_version_short}',
+        'purelib': '{base}/Lib/python{py_version_short}/site-packages',
+        'platlib': '{platbase}/Lib/python{py_version_short}/site-packages',
         'include':
             '{installed_base}/include/python{py_version_short}{abiflags}',
         'platinclude':
@@ -32,10 +32,10 @@ _INSTALL_SCHEMES = {
         'data': '{base}',
         },
     'posix_home': {
-        'stdlib': '{installed_base}/lib/python',
-        'platstdlib': '{base}/lib/python',
-        'purelib': '{base}/lib/python',
-        'platlib': '{base}/lib/python',
+        'stdlib': '{installed_base}/Lib/python',
+        'platstdlib': '{base}/Lib/python',
+        'purelib': '{base}/Lib/python',
+        'platlib': '{base}/Lib/python',
         'include': '{installed_base}/include/python',
         'platinclude': '{installed_base}/include/python',
         'scripts': '{base}/bin',
@@ -61,19 +61,19 @@ _INSTALL_SCHEMES = {
         'data': '{userbase}',
         },
     'posix_user': {
-        'stdlib': '{userbase}/lib/python{py_version_short}',
-        'platstdlib': '{userbase}/lib/python{py_version_short}',
-        'purelib': '{userbase}/lib/python{py_version_short}/site-packages',
-        'platlib': '{userbase}/lib/python{py_version_short}/site-packages',
+        'stdlib': '{userbase}/Lib/python{py_version_short}',
+        'platstdlib': '{userbase}/Lib/python{py_version_short}',
+        'purelib': '{userbase}/Lib/python{py_version_short}/site-packages',
+        'platlib': '{userbase}/Lib/python{py_version_short}/site-packages',
         'include': '{userbase}/include/python{py_version_short}',
         'scripts': '{userbase}/bin',
         'data': '{userbase}',
         },
     'osx_framework_user': {
-        'stdlib': '{userbase}/lib/python',
-        'platstdlib': '{userbase}/lib/python',
-        'purelib': '{userbase}/lib/python/site-packages',
-        'platlib': '{userbase}/lib/python/site-packages',
+        'stdlib': '{userbase}/Lib/python',
+        'platstdlib': '{userbase}/Lib/python',
+        'purelib': '{userbase}/Lib/python/site-packages',
+        'platlib': '{userbase}/Lib/python/site-packages',
         'include': '{userbase}/include',
         'scripts': '{userbase}/bin',
         'data': '{userbase}',
@@ -398,7 +398,7 @@ def _generate_posix_vars():
         module.build_time_vars = vars
         sys.modules[name] = module
 
-    pybuilddir = 'build/lib.%s-%s' % (get_platform(), _PY_VERSION_SHORT)
+    pybuilddir = 'build/Lib.%s-%s' % (get_platform(), _PY_VERSION_SHORT)
     if hasattr(sys, "gettotalrefcount"):
         pybuilddir += '-pydebug'
     os.makedirs(pybuilddir, exist_ok=True)

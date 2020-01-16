@@ -87,13 +87,13 @@ class LibPathFindTest(unittest.TestCase):
             # create an empty temporary file
             srcname = os.path.join(d, 'dummy.c')
             libname = 'py_ctypes_test_dummy'
-            dstname = os.path.join(d, 'lib%s.so' % libname)
+            dstname = os.path.join(d, 'Lib%s.so' % libname)
             with open(srcname, 'w') as f:
                 pass
             self.assertTrue(os.path.exists(srcname))
             # compile the file to a shared library
             cmd = ['gcc', '-o', dstname, '--shared',
-                   '-Wl,-soname,lib%s.so' % libname, srcname]
+                   '-Wl,-soname,Lib%s.so' % libname, srcname]
             out = subprocess.check_output(cmd)
             self.assertTrue(os.path.exists(dstname))
             # now check that the .so can't be found (since not in
@@ -109,7 +109,7 @@ class LibPathFindTest(unittest.TestCase):
                 env.set(KEY, v)
                 # now check that the .so can be found (since in
                 # LD_LIBRARY_PATH)
-                self.assertEqual(find_library(libname), 'lib%s.so' % libname)
+                self.assertEqual(find_library(libname), 'Lib%s.so' % libname)
 
 
 if __name__ == "__main__":
