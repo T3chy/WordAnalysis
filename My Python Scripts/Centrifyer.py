@@ -12,7 +12,7 @@ access_secret = "GTa4it7WQ4pXnvu1klWlFnbMFfUSVVBw8gvu0sipWGeD7"
 
 
 # Function to extract tweets
-def get_tweets(username):
+def get_tweets(username, numtweets):
     # Authorization to consumer key and consumer secret
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
@@ -23,7 +23,7 @@ def get_tweets(username):
     api = tweepy.API(auth)
 
     # 200 tweets to be extracted
-    number_of_tweets = 200
+    number_of_tweets = numtweets
     tweets = api.user_timeline(screen_name=username)
 
     # Empty Array
@@ -38,44 +38,45 @@ def get_tweets(username):
 
         # Printing the tweets
     print(tmp)
+    with open('listfile.txt', 'w') as filehandle:
+        for listitem in places:
+            filehandle.write('%s\n' % listitem)
+
 bl = Blobber(analyzer=NaiveBayesAnalyzer())
-at = input("what's the @?")
-print(at)
-confirm = input("does this look right? y/n")
-while True:
-    if confirm == "y":
-        print("epic")
-        break
+bp = input("use text list? y/n")
+if bp == "y":
+    with open('listfile.txt') as f:
+        tweet1 = f.readline()
+else:
     at = input("what's the @?")
     print(at)
     confirm = input("does this look right? y/n")
-#get_tweets("realdonaldtrump")
-tweet = "ukraine opens inquiry into trump"
-tweetb = TextBlob(str(tweet))
-print("here's your most recent tweet: " + tweet)
+    while True:
+        if confirm == "y":
+            print("epic")
+            break
+        at = input("what's the @?")
+        print(at)
+        confirm = input("does this look right? y/n")
+    get_tweets(at)
+    with open('listfile.txt') as f:
+        tweet1 = f.readline()
+
+tweetb = TextBlob(str(tweet1))
+print("here's your most recent tweet: " + tweet1)
 if not str(tweetb) == tweetb.correct():
     print("first of all, let's fix this spelling, shall we?")
     spell = input("y/n")
     if spell == "y":
         corrected = tweetb.correct()
-        print("before: " + tweet)
+        print("before: " + tweet1)
         print("after: " + str(corrected))
         conf = input("does this look right? y/n")
         if conf == "n":
             print("ok, taking the original tweet")
         else:
-            tweet = corrected
+            tweet1 = corrected
             tweetb = TextBlob(str(corrected))
     else:
         print("aight lol you do you")
 print("lets see how polarizing you are")
-
-
-
-
-
-
-
-
-
-
