@@ -89,15 +89,17 @@ sumnum = 0
 for n in polars:
     sumnum = sumnum + n
 avgpolar = sumnum / len(polars)
-if avgpolar > 0 and avgpolar < 2:
+print(avgpolar)
+if abs(avgpolar) > 0 and abs(avgpolar) < .2:
     polar = "low!"
-elif avgpolar > 2 and avgpolar < 4:
+elif abs(avgpolar) > .2 and abs(avgpolar) < .4:
     polar = "eh, pretty low!"
-elif avgpolar > 4 and avgpolar < 6:
+elif abs(avgpolar) > .4 and abs(avgpolar) < .6:
     polar = "somewhat high"
-elif avgpolar > 6 and avgpolar < 8:
+elif abs(avgpolar) > .6 and abs(avgpolar) < .8:
     polar = "pretty gosh darn high"
-elif avgpolar > 8:
+elif abs(avgpolar) > .8:
     polar = "woah there bucko, that's pretty polar"
+
 print("your average polarity is " + polar)
 
