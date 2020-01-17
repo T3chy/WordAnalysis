@@ -5,6 +5,8 @@ from textblob.sentiments import NaiveBayesAnalyzer
 import tweepy
 import re
 import json
+import MPS.Graph
+
 
 consumer_key = "wBlchO1ZEiGnv1ly1wmVplNr5"
 consumer_secret = "iyHcmJITDblWRf4Zj46r19UVbngnU8DoXkBoXCtchZpZ7kF6HT"
@@ -89,7 +91,6 @@ sumnum = 0
 for n in polars:
     sumnum = sumnum + n
 avgpolar = sumnum / len(polars)
-print(avgpolar)
 if abs(avgpolar) > 0 and abs(avgpolar) < .2:
     polar = "low!"
 elif abs(avgpolar) > .2 and abs(avgpolar) < .4:
@@ -100,6 +101,10 @@ elif abs(avgpolar) > .6 and abs(avgpolar) < .8:
     polar = "pretty gosh darn high"
 elif abs(avgpolar) > .8:
     polar = "woah there bucko, that's pretty polar"
-
-print("your average polarity is " + polar)
+if avgpolar > 0:
+    pnpolar = "positive"
+elif avgpolar < 0:
+    pnpolar = "negative"
+print("your average polarity is " + polar + " And " + pnpolar)
+MPS.Graph.imp(polars)
 
