@@ -59,7 +59,13 @@ else:
         at = input("what's the @?")
         print(at)
         confirm = input("does this look right? y/n")
-    get_tweets(at)
+    try:
+        get_tweets(at)
+    except Exception, e:
+        print("sorry bucko, getting your tweets didn't work out")
+        print("The error message is: " + str(e))
+    else:
+        print("tweets sucessfully gathered! Caching..."")
     with open('listfile.txt') as f:
         tweet1 = f.readline()
 tweetb = TextBlob(str(tweet1))
