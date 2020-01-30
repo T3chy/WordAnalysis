@@ -34,7 +34,7 @@ def get_tweets(username):
 
     # create array of tweet information: username,
     # tweet id, date/time, text
-    tweets_for_csv = [[tweet.text, tweet.date/time] for tweet in tweets,]  # CSV file created
+    tweets_for_csv = [[tweet.text, tweet.date/time] for tweet in tweets]  # CSV file created
     for j in tweets_for_csv:
         # Appending tweets to the empty array tmp
         tmp.append([j])
@@ -92,6 +92,7 @@ with open('listfile.txt') as f:
         tw = TextBlob(str(t))
         twtlst.append([t.strip('\n'), tw.sentiment.polarity]) #get polarity value added as subitem
         polars.append(tw.sentiment.polarity)
+print(polars)
 sumnum = 0
 for n in polars:
     sumnum = sumnum + n
