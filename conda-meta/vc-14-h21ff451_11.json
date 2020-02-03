@@ -1,0 +1,34 @@
+{
+  "build": "h21ff451_11",
+  "build_number": 11,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-32",
+  "constrains": [],
+  "depends": [
+    "vs2015_runtime >=14.0.25420"
+  ],
+  "extracted_package_dir": "C:\\ProgramData\\Anaconda3\\pkgs\\vc-14-h21ff451_11",
+  "features": "",
+  "files": [],
+  "fn": "vc-14-h21ff451_11.tar.bz2",
+  "license": "Modified BSD License (3-clause)",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\ProgramData\\Anaconda3\\pkgs\\vc-14-h21ff451_11",
+    "type": 1
+  },
+  "md5": "79066eb3ec90eb1b5928790f196abc0f",
+  "name": "vc",
+  "package_tarball_full_path": "C:\\ProgramData\\Anaconda3\\pkgs\\vc-14-h21ff451_11.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c599a2c12f5a3aec8fda38e627d73f13e5b141077b042326190cd650d345cb66",
+  "size": 5431,
+  "subdir": "win-32",
+  "timestamp": 1560521966610,
+  "track_features": "vc14",
+  "url": "https://repo.anaconda.com/pkgs/main/win-32/vc-14-h21ff451_11.tar.bz2",
+  "version": "14"
+}

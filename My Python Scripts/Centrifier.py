@@ -42,7 +42,7 @@ def get_tweets(username):
         # Printing the tweets
     print(tmp)
     with open('listfile.txt', 'w') as filehandle:
-        for listitem in places:
+        for listitem in tmp:
             filehandle.write('%s\n' % listitem)
 
 bl = Blobber(analyzer=NaiveBayesAnalyzer())
@@ -116,4 +116,4 @@ elif abs(avgpolar) > .6 and abs(avgpolar) < .8:
 elif abs(avgpolar) > .8:
     polar = "woah there bucko, that's pretty polar"
 print("your average polarity is " + posneg + polar)
-
+# peepee

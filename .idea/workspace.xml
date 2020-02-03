@@ -1,0 +1,1684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70fe1b62-f9d6-4857-bc1f-e33d8e6db130" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/cryptography/hazmat/backends/openssl/ed25519.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/5.9.7/ActiveQt/private/qaxutils_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/5.9.7/ActiveQt/private/qclassfactory_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/activeqtversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/activeqtversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxaggregated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxaggregated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxbase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxbase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxbindable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxbindable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxfactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxfactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxobject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxobject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxscript.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxscript.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxselect.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxselect.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxtypefunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxtypefunctions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxtypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxtypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxwidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/ActiveQt/qaxwidget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/aspectcommanddebugger_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/corelogging_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/nullservices_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/propertychangehandler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qabstractaspect_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qabstractaspectjobmanager_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qabstractframeadvanceservice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qabstractframeadvanceservice_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qabstractnodefactory_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qabstractserviceprovider_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qaspectengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qaspectfactory_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qaspectjob_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qaspectjobmanager_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qaspectjobproviderinterface_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qaspectmanager_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qaspectthread_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qbackendnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qbackendnodefactory_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qboundedcircularbuffer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qchangearbiter_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qcircularbuffer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qcomponent_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qcomponentaddedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qcomponentremovedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qdestructionidandtypecollector_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qdynamicpropertyupdatedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qentity_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qeventfilterservice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qframeallocator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qframeallocator_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qhandle_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qlockableobserverinterface_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qmath3d_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qnodecreatedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qnodecreatedchangegenerator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qnodedestroyedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qnodevisitor_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qobservableinterface_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qobserverinterface_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qopenglinformationservice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qopenglinformationservice_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qpostman_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qpostman_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qpropertynodeaddedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qpropertynoderemovedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qpropertyupdatedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qpropertyupdatedchangebase_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qpropertyvalueaddedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qpropertyvalueaddedchangebase_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qpropertyvalueremovedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qpropertyvalueremovedchangebase_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qresourcemanager_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qscene_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qscenechange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qsceneobserverinterface_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qscheduler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qservicelocator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qstaticpropertyupdatedchangebase_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qstaticpropertyvalueaddedchangebase_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qstaticpropertyvalueremovedchangebase_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qsysteminformationservice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qsysteminformationservice_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qt3dcore-config_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qt3dcore_global_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qthreadpooler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qtickclock_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qtickclockservice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qtransform_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/qtypedpropertyupdatechange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/5.9.7/Qt3DCore/private/task_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qabstractaspect.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qabstractaspect.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qaspectengine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qaspectengine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qaspectjob.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qaspectjob.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qbackendnode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qbackendnode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qcomponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qcomponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qcomponentaddedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qcomponentaddedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qcomponentremovedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qcomponentremovedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qdynamicpropertyupdatedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qdynamicpropertyupdatedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qentity.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qentity.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qnode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qnode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qnodecreatedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qnodecreatedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qnodedestroyedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qnodedestroyedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qnodeid.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qnodeid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertynodeaddedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertynodeaddedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertynoderemovedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertynoderemovedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyupdatedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyupdatedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyupdatedchangebase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyupdatedchangebase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyvalueaddedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyvalueaddedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyvalueaddedchangebase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyvalueaddedchangebase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyvalueremovedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyvalueremovedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyvalueremovedchangebase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qpropertyvalueremovedchangebase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qscenechange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qscenechange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qstaticpropertyupdatedchangebase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qstaticpropertyupdatedchangebase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qstaticpropertyvalueaddedchangebase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qstaticpropertyvalueaddedchangebase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qstaticpropertyvalueremovedchangebase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qstaticpropertyvalueremovedchangebase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qt3dcore_global.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qt3dcore_global.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qt3dcoreversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qt3dcoreversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qtransform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DCore/qtransform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/abstractactioninput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/abstractaxisinput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/action_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/actioninput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/analogaxisinput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/assignkeyboardfocusjob_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/axis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/axisaccumulator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/axisaccumulatorjob_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/axissetting_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/buttonaxisinput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/eventsourcesetterhelper_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/genericdevicebackendnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/handle_types_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/inputbackendnodefunctor_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/inputchord_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/inputhandler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/inputmanagers_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/inputsequence_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/inputsettings_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/job_common_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/keyboarddevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/keyboardeventfilter_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/keyboardhandler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/keyboardmousegenericdeviceintegration_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/keyeventdispatcherjob_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/loadproxydevicejob_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/logicaldevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/mousedevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/mouseeventdispatcherjob_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/mouseeventfilter_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/mousehandler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/movingaverage_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/physicaldeviceproxy_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qabstractactioninput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qabstractaxisinput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qabstractphysicaldevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qabstractphysicaldevicebackendnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qabstractphysicaldevicebackendnode_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qabstractphysicaldeviceproxy_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qabstractphysicaldeviceproxy_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qaction_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qactioninput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qanalogaxisinput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qaxisaccumulator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qaxissetting_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qbuttonaxisinput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qgamepadinput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qgenericinputdevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qinputaspect_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qinputchord_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qinputdeviceintegration_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qinputdeviceintegration_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qinputdeviceintegrationfactory_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qinputdeviceplugin_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qinputsequence_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qinputsettings_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qkeyboarddevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qkeyboardhandler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qlogicaldevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qmousedevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qmousehandler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qphysicaldevicecreatedchange_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/qt3dinput_global_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/updateaxisactionjob_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/5.9.7/Qt3DInput/private/utils_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qabstractactioninput.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qabstractactioninput.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qabstractaxisinput.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qabstractaxisinput.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qabstractphysicaldevice.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qabstractphysicaldevice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qaction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qaction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qactioninput.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qactioninput.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qanalogaxisinput.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qanalogaxisinput.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qaxis.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qaxis.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qaxisaccumulator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qaxisaccumulator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qaxissetting.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qaxissetting.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qbuttonaxisinput.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qbuttonaxisinput.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qinputaspect.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qinputaspect.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qinputchord.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qinputchord.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qinputsequence.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qinputsequence.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qinputsettings.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qinputsettings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qkeyboarddevice.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qkeyboarddevice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qkeyboardhandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qkeyboardhandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qkeyevent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qkeyevent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qlogicaldevice.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qlogicaldevice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qmousedevice.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qmousedevice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qmouseevent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qmouseevent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qmousehandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qmousehandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qphysicaldevicecreatedchange.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qphysicaldevicecreatedchange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qt3dinput_global.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qt3dinput_global.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qt3dinputversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DInput/qt3dinputversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/5.9.7/Qt3DLogic/private/callbackjob_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/5.9.7/Qt3DLogic/private/executor_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/5.9.7/Qt3DLogic/private/handler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/5.9.7/Qt3DLogic/private/job_common_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/5.9.7/Qt3DLogic/private/manager_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/5.9.7/Qt3DLogic/private/managers_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/5.9.7/Qt3DLogic/private/qframeaction_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/5.9.7/Qt3DLogic/private/qlogicaspect_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/qframeaction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/qframeaction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/qlogicaspect.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/qlogicaspect.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/qt3dlogic_global.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/qt3dlogic_global.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/qt3dlogicversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/Qt3DLogic/qt3dlogicversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtANGLE/EGL/egl.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtANGLE/EGL/egl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtANGLE/EGL/eglext.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtANGLE/EGL/eglext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtANGLE/EGL/eglplatform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtANGLE/EGL/eglplatform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES2/gl2.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES2/gl2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES2/gl2ext.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES2/gl2ext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES2/gl2platform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES2/gl2platform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES3/gl3.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES3/gl3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES3/gl3ext.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES3/gl3ext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES3/gl3platform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtANGLE/GLES3/gl3platform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtANGLE/KHR/khrplatform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtANGLE/KHR/khrplatform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/abstractbarchartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/abstractchartlayout_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/abstractdomain_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/areachartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/axisanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/bar_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/baranimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/barchartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/boxplotanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/boxplotchartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/boxwhiskers_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/boxwhiskersanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/boxwhiskersdata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/candlestick_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/candlestickanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/candlestickbodywicksanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/candlestickchartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/candlestickdata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/cartesianchartaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/cartesianchartlayout_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartaxiselement_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartbackground_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartbarcategoryaxisx_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartbarcategoryaxisy_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartcategoryaxisx_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartcategoryaxisy_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartconfig_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartdataset_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartdatetimeaxisx_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartdatetimeaxisy_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartelement_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/charthelpers_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartlogvalueaxisx_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartlogvalueaxisy_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartpresenter_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/charttheme_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartthemebluecerulean_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartthemeblueicy_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartthemebluencs_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartthemebrownsand_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartthemedark_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartthemehighcontrast_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartthemelight_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartthememanager_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartthemeqt_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartthemesystem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/charttitle_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartvalueaxisx_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/chartvalueaxisy_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/glwidget_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/glxyseriesdata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/horizontalaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/horizontalbarchartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/horizontalpercentbarchartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/horizontalstackedbarchartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/legendlayout_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/legendmarkeritem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/legendscroller_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/linearrowitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/linechartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/logxlogydomain_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/logxlogypolardomain_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/logxydomain_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/logxypolardomain_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/percentbarchartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/pieanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/piechartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/piesliceanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/pieslicedata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/piesliceitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartaxisangular_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartaxisradial_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartcategoryaxisangular_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartcategoryaxisradial_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartdatetimeaxisangular_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartdatetimeaxisradial_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartlayout_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartlogvalueaxisangular_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartlogvalueaxisradial_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartvalueaxisangular_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polarchartvalueaxisradial_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/polardomain_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qabstractaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qabstractbarseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qabstractseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qarealegendmarker_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qareaseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qbarcategoryaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qbarlegendmarker_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qbarmodelmapper_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qbarseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qbarset_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qboxplotlegendmarker_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qboxplotmodelmapper_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qboxplotseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qboxset_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qcandlesticklegendmarker_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qcandlestickmodelmapper_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qcandlestickseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qcandlestickset_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qcategoryaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qchart_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qchartview_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qdatetimeaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qhorizontalbarseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qhorizontalpercentbarseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qhorizontalstackedbarseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qlegend_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qlegendmarker_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qlineseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qlogvalueaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qpercentbarseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qpielegendmarker_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qpiemodelmapper_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qpieseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qpieslice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qscatterseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qsplineseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qstackedbarseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qvalueaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qxylegendmarker_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qxymodelmapper_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/qxyseries_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/scatteranimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/scatterchartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/scroller_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/splineanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/splinechartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/stackedbarchartitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/verticalaxis_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/xlogydomain_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/xlogypolardomain_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/xyanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/xychart_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/xydomain_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/5.9.7/QtCharts/private/xypolardomain_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/chartsnamespace.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/chartsnamespace.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qabstractaxis.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qabstractaxis.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qabstractbarseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qabstractbarseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qabstractseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qabstractseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qarealegendmarker.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qarealegendmarker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qareaseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qareaseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qbarcategoryaxis.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qbarcategoryaxis.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qbarlegendmarker.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qbarlegendmarker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qbarmodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qbarmodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qbarseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qbarseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qbarset.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qbarset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qboxplotlegendmarker.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qboxplotlegendmarker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qboxplotmodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qboxplotmodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qboxplotseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qboxplotseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qboxset.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qboxset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qcandlesticklegendmarker.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qcandlesticklegendmarker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qcandlestickmodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qcandlestickmodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qcandlestickseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qcandlestickseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qcandlestickset.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qcandlestickset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qcategoryaxis.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qcategoryaxis.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qchart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qchart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qchartglobal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qchartglobal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qchartview.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qchartview.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qdatetimeaxis.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qdatetimeaxis.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhbarmodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhbarmodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhboxplotmodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhboxplotmodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhcandlestickmodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhcandlestickmodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhorizontalbarseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhorizontalbarseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhorizontalpercentbarseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhorizontalpercentbarseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhorizontalstackedbarseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhorizontalstackedbarseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhpiemodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhpiemodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhxymodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qhxymodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qlegend.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qlegend.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qlegendmarker.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qlegendmarker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qlineseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qlineseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qlogvalueaxis.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qlogvalueaxis.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpercentbarseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpercentbarseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpielegendmarker.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpielegendmarker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpiemodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpiemodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpieseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpieseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpieslice.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpieslice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpolarchart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qpolarchart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qscatterseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qscatterseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qsplineseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qsplineseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qstackedbarseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qstackedbarseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qtchartsversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qtchartsversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvalueaxis.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvalueaxis.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvbarmodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvbarmodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvboxplotmodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvboxplotmodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvcandlestickmodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvcandlestickmodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvpiemodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvpiemodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvxymodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qvxymodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qxylegendmarker.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qxylegendmarker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qxymodelmapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qxymodelmapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCharts/qxyseries.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtCharts/qxyseries.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/cp949codetbl_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qabstractanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qabstracteventdispatcher_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qabstractfileengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qabstractproxymodel_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qabstractstate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qanimationgroup_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qbig5codec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qbytedata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qcollator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qconfig_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qcore_mac_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qcore_unix_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qcoreglobaldata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qdataurl_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qdatetime_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qdatetimeparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qdeadlinetimer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qdebug_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qdir_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qdoublescanprint_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qelfparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qeucjpcodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qeuckrcodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qeventdispatcher_cf_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qeventdispatcher_glib_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qeventdispatcher_unix_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qeventdispatcher_win_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qeventdispatcher_winrt_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qeventloop_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfile_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfiledevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfileinfo_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfileselector_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfilesystemengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfilesystementry_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfilesystemwatcher_fsevents_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfilesystemwatcher_inotify_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfilesystemwatcher_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfilesystemwatcher_polling_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfilesystemwatcher_win_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfsfileengine_iterator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfunctions_fake_env_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfunctions_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfutureinterface_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qfuturewatcher_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qgb18030codec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qglobal_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qharfbuzz_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qhistorystate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qhooks_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qiconvcodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qicucodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qiodevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qisciicodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qitemselectionmodel_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qjni_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qjnihelpers_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qjpunicode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qjson_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qjsonparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qjsonwriter_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qlibrary_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qlocale_data_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qlocale_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qlockfile_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qloggingregistry_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmachparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmetaobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmetaobjectbuilder_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmetatype_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmetatypeswitcher_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmimedatabase_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmimemagicrule_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmimemagicrulematcher_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmimeprovider_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmimetype_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmimetypeparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qmutex_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qnoncontiguousbytedevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qnumeric_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qoperatingsystemversion_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qoperatingsystemversion_win_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qorderedmutexlocker_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qparallelanimationgroup_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qpodlist_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qpoll_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qppsattribute_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qppsattributeprivate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qpropertyanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qreadwritelock_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qresource_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qringbuffer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsavefile_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qscopedpointer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsequentialanimationgroup_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsettings_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsignaleventgenerator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsignaltransition_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsimd_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsimplecodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsjiscodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qstate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qstatemachine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qstorageinfo_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qstringiterator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsystemerror_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsystemlibrary_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qsystemsemaphore_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qt_pch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qtextcodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qtextstream_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qthread_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qthreadpool_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qtimezoneprivate_data_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qtldurl_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qtranslator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qtsciicodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qunicodetables_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qurl_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qurltlds_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qvariant_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qvariantanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qwindowscodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qwindowspipereader_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qwindowspipewriter_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qwinoverlappedionotifier_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qxmlstream_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtCore/5.9.7/QtCore/private/qxmlutils_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/dbus_minimal_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbus_symbols_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusabstractadaptor_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusabstractinterface_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusargument_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusconnection_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusconnectionmanager_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbuscontext_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusintegrator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusinterface_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusintrospection_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusmessage_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusmetaobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusmetatype_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbuspendingcall_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusthreaddebug_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusutil_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qdbusxmlparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/5.9.7/QtDBus/private/qtdbusglobal_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusabstractadaptor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusabstractadaptor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusabstractinterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusabstractinterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusargument.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusargument.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusconnection.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusconnection.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusconnectioninterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusconnectioninterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbuscontext.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbuscontext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbuserror.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbuserror.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusextratypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusextratypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusinterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusinterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusmessage.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusmessage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusmetatype.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusmetatype.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbuspendingcall.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbuspendingcall.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbuspendingreply.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbuspendingreply.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusreply.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusreply.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusserver.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusserver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusservicewatcher.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusservicewatcher.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusunixfiledescriptor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusunixfiledescriptor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusvirtualobject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qdbusvirtualobject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qtdbusglobal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qtdbusglobal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtDBus/qtdbusversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtDBus/qtdbusversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/5.9.7/QtHelp/private/qhelpcollectionhandler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/5.9.7/QtHelp/private/qhelpdatainterface_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/5.9.7/QtHelp/private/qhelpdbreader_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/5.9.7/QtHelp/private/qhelpengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/5.9.7/QtHelp/private/qhelpgenerator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/5.9.7/QtHelp/private/qhelpprojectdata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/5.9.7/QtHelp/private/qhelpsearchindexreader_default_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/5.9.7/QtHelp/private/qhelpsearchindexreader_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/5.9.7/QtHelp/private/qhelpsearchindexwriter_default_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelp_global.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelp_global.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpcontentwidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpcontentwidget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpengine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpengine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpenginecore.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpenginecore.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpindexwidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpindexwidget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpsearchengine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpsearchengine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpsearchquerywidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpsearchquerywidget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpsearchresultwidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtHelp/qhelpsearchresultwidget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtHelp/qthelpversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtHelp/qthelpversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qgl2pexvertexarray_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qgl_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qglcustomshaderstage_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qglengineshadermanager_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qglengineshadersource_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qglframebufferobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qglgradientcache_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qglpaintdevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qglpixelbuffer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qglshadercache_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qgraphicsshadereffect_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qpaintengineex_opengl2_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/5.9.7/QtOpenGL/private/qtextureglyphcache_gl_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qgl.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qgl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglbuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglbuffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglcolormap.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglcolormap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglframebufferobject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglframebufferobject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglfunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglfunctions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglpixelbuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglpixelbuffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglshaderprogram.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qglshaderprogram.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qtopenglglobal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qtopenglglobal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qtopenglversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtOpenGL/qtopenglversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qaccessiblequickitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qaccessiblequickview_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qqmldesignermetaobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickaccessibleattached_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickaccessiblefactory_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanchors_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanchors_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimatedimage_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimatedimage_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimatedsprite_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimatedsprite_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimation_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimationcontroller_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimator_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimatorcontroller_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickanimatorjob_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickapplication_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickbehavior_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickborderimage_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickborderimage_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickcanvascontext_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickcanvasitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickclipnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickcontext2d_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickcontext2dcommandbuffer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickcontext2dtexture_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickcontext2dtile_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdesignercustomobjectdata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdesignercustomparserobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdesignersupport_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdesignersupportitems_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdesignersupportmetainfo_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdesignersupportproperties_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdesignersupportpropertychanges_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdesignersupportstates_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdesignerwindowmanager_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdrag_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickdroparea_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickevents_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickflickable_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickflickable_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickflickablebehavior_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickflipable_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickfocusscope_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickfontloader_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickfontmetrics_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickgenericshadereffect_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickgraphicsinfo_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickgridview_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickimage_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickimage_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickimagebase_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickimagebase_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickimplicitsizeitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickimplicitsizeitem_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickitem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickitemanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickitemanimation_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickitemchangelistener_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickitemsmodule_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickitemview_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickitemview_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickitemviewtransition_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicklistview_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickloader_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickloader_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickmousearea_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickmousearea_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickmultipointtoucharea_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickopenglinfo_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickopenglshadereffect_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickopenglshadereffectnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpainteditem_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpath_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpath_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpathinterpolator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpathview_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpathview_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpincharea_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpincharea_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpixmapcache_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpositioners_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpositioners_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickprofiler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickpropertychanges_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickrectangle_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickrectangle_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickrendercontrol_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickrepeater_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickrepeater_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickscalegrid_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickscreen_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickshadereffect_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickshadereffectmesh_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickshadereffectsource_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickshortcut_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicksmoothedanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicksmoothedanimation_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickspringanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicksprite_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickspriteengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickspritesequence_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickspritesequence_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickstate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickstate_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickstatechangescript_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickstategroup_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickstateoperations_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickstyledtext_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicksvgparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicksystempalette_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktext_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktext_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextcontrol_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextcontrol_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextdocument_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextedit_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextedit_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextinput_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextinput_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextmetrics_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextnodeengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktextutil_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktimeline_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktransition_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktransitionmanager_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquicktranslate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickutilmodule_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickvalidator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickvaluetypes_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickview_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickwindow_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickwindowattached_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qquickwindowmodule_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgabstractrenderer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgabstractsoftwarerenderer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgadaptationlayer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgareaallocator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgatlastexture_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgbasicglyphnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgbasicinternalimagenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgbasicinternalrectanglenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgbatchrenderer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgcontext_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgcontextplugin_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultcontext_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultdistancefieldglyphcache_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultglyphnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultglyphnode_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultimagenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultinternalimagenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultinternalrectanglenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultlayer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultninepatchnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultpainternode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultrectanglenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultrendercontext_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdefaultspritenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdepthstencilbuffer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdistancefieldglyphnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdistancefieldglyphnode_p_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgdistancefieldutil_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsggeometry_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgmaterialshader_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgnodeupdater_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgrenderer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgrenderloop_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgrendernode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgshadersourcebuilder_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwareadaptation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarecontext_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwareglyphnode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwareinternalimagenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwareinternalrectanglenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarelayer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarepainternode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarepixmaprenderer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarepixmaptexture_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarepublicnodes_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarerenderablenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarerenderablenodeupdater_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarerenderer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarerenderlistbuilder_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarerenderloop_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarespritenode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgsoftwarethreadedrenderloop_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgtexture_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgtexturematerial_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgthreadedrenderloop_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qsgwindowsrenderloop_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qtquick-config_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qtquick2_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/5.9.7/QtQuick/private/qtquickglobal_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickframebufferobject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickframebufferobject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickimageprovider.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickimageprovider.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickitem.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickitem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickitemgrabresult.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickitemgrabresult.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickpainteditem.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickpainteditem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickrendercontrol.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickrendercontrol.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquicktextdocument.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquicktextdocument.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickview.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickview.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qquickwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgabstractrenderer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgabstractrenderer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgengine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgengine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgflatcolormaterial.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgflatcolormaterial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsggeometry.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsggeometry.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgimagenode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgimagenode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgmaterial.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgmaterial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgninepatchnode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgninepatchnode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgnode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgnode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgrectanglenode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgrectanglenode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgrendererinterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgrendererinterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgrendernode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgrendernode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgsimplematerial.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgsimplematerial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgsimplerectnode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgsimplerectnode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgsimpletexturenode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgsimpletexturenode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgtexture.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgtexture.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgtexturematerial.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgtexturematerial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgtextureprovider.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgtextureprovider.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgvertexcolormaterial.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qsgvertexcolormaterial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qtquickglobal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qtquickglobal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtQuick/qtquickversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtQuick/qtquickversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptable_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptactivationobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptast_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptastfwd_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptastvisitor_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptclassobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptcontext_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptdeclarativeclass_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptdeclarativeobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptengineagent_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptfunction_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptglobalobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptgrammar_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptlexer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptprogram_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptqobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptstaticscopeobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptstring_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptsyntaxchecker_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptvalue_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/5.9.7/QtScript/private/qscriptvariant_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptclass.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptclass.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptclasspropertyiterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptclasspropertyiterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptcontext.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptcontext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptcontextinfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptcontextinfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptengine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptengine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptengineagent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptengineagent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptextensioninterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptextensioninterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptextensionplugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptextensionplugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptprogram.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptprogram.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptstring.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptstring.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptvalue.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptvalue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptvalueiterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qscriptvalueiterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qtscriptglobal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qtscriptglobal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScript/qtscriptversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScript/qtscriptversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmlcompiler_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmlcppdatamodel_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmldatamodel_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmlecmascriptplatformproperties_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmlevent_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmlexecutablecontent_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmlglobals_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmlinvokableservice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmlstatemachine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmlstatemachineinfo_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/5.9.7/QtScxml/private/qscxmltabledata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlcompiler.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlcompiler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlcppdatamodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlcppdatamodel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmldatamodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmldatamodel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlecmascriptdatamodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlecmascriptdatamodel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlerror.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlerror.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlevent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlevent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlexecutablecontent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlexecutablecontent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlglobals.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlglobals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlinvokableservice.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlinvokableservice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlnulldatamodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlnulldatamodel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlstatemachine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmlstatemachine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmltabledata.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qscxmltabledata.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtScxml/qtscxmlversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtScxml/qtscxmlversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/callgrind_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/cycle_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/linux_perf_event_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qabstracttestlogger_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qbenchmark_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qbenchmarkevent_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qbenchmarkmeasurement_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qbenchmarkmetric_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qbenchmarkperfevents_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qbenchmarktimemeasurers_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qbenchmarkvalgrind_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qcsvbenchmarklogger_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qplaintestlogger_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qsignaldumper_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qteamcitylogger_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtestblacklist_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtestcoreelement_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtestcorelist_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtestelement_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtestelementattribute_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtesthelpers_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtestlog_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtestresult_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtesttable_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtestutil_macos_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qtestxunitstreamer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qxctestlogger_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qxmltestlogger_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/qxunittestlogger_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/5.9.7/QtTest/private/valgrind_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qbenchmark.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qbenchmark.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qbenchmarkmetric.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qbenchmarkmetric.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qsignalspy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qsignalspy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtest.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtest_global.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtest_global.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtest_gui.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtest_gui.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtest_network.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtest_network.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtest_widgets.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtest_widgets.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestaccessible.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestaccessible.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestassert.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestassert.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestcase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestcase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestdata.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestdata.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestevent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestevent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtesteventloop.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtesteventloop.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestkeyboard.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestkeyboard.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestmouse.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestmouse.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestspontaneevent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestspontaneevent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestsystem.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtestsystem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qtesttouch.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qtesttouch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/include/qt/QtTest/qttestversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/include/qt/QtTest/qttestversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conda-meta/history" beforeDir="false" afterPath="$PROJECT_DIR$/conda-meta/history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conda-meta/vc-14.1-h0510ff6_4.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Centrifier.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/My Python Scripts/Centrifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backend_agg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/matplotlib/backends/backend_agg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Image.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/PIL/Image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1649">
+              <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listfile.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>avgpolar</find>
+      <find>imp(</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/My Python Scripts/test bruh.py" />
+        <option value="$PROJECT_DIR$/My Python Scripts/listfile.txt" />
+        <option value="$PROJECT_DIR$/My Python Scripts/Centrifyer.py" />
+        <option value="$PROJECT_DIR$/MPS/Centrifyer.py" />
+        <option value="$PROJECT_DIR$/MPS/Graph.py" />
+        <option value="$PROJECT_DIR$/My Python Scripts/Centrifier.py" />
+        <option value="$PROJECT_DIR$/My Python Scripts/Graph.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="37" />
+    <option name="y" value="215" />
+    <option name="width" value="1400" />
+    <option name="height" value="651" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WordAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordAnalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="My Python Scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="WordAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (WordAnalysis) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="WordAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (WordAnalysis) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="WordAnalysis" is-module-sdk="true">
+        <envs>
+          <env key="PATH" value="C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\bin;C:\ProgramData\Anaconda3\condabin;C:\Program Files\Python36-32\Scripts;C:\Program Files\Python36-32;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\DMIX;C:\Program Files\QuickTime\QTSystem;C:\Program Files\Lightspeed Systems\SecurityAgent;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw32\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;.  " />
+        </envs>
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="WordAnalysis" />
+        <option name="myEnvs">
+          <map>
+            <entry key="PATH" value="C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\bin;C:\ProgramData\Anaconda3\condabin;C:\Program Files\Python36-32\Scripts;C:\Program Files\Python36-32;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\DMIX;C:\Program Files\QuickTime\QTSystem;C:\Program Files\Lightspeed Systems\SecurityAgent;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw32\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;.  " />
+          </map>
+        </option>
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Graph (1)">
+    <configuration name="Centrifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WordAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/My Python Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My Python Scripts/Centrifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Centrifyer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WordAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MPS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MPS/Centrifyer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Centrifyer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WordAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/My Python Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My Python Scripts/Centrifyer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Graph (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WordAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/My Python Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My Python Scripts/Graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WordAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MPS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\ProgramData\Anaconda3\envs\WordAnalysis\My Python Scripts\Graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Centrifyer" />
+      <item itemvalue="Python.Centrifyer (1)" />
+      <item itemvalue="Python.Graph" />
+      <item itemvalue="Python.Graph (1)" />
+      <item itemvalue="Python.Centrifier" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Graph (1)" />
+        <item itemvalue="Python.Centrifier" />
+        <item itemvalue="Python.Graph" />
+        <item itemvalue="Python.Centrifyer (1)" />
+        <item itemvalue="Python.Centrifyer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70fe1b62-f9d6-4857-bc1f-e33d8e6db130" name="Default" comment="" />
+      <created>1578586681818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578586681818</updated>
+    </task>
+    <task id="LOCAL-00001" summary="peepee">
+      <created>1579018481358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579018481358</updated>
+    </task>
+    <task id="LOCAL-00002" summary="peepee">
+      <created>1579021895659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579021895659</updated>
+    </task>
+    <task id="LOCAL-00003" summary="peepee">
+      <created>1579192709871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579192709871</updated>
+    </task>
+    <task id="LOCAL-00004" summary="peepee">
+      <created>1579194423800</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579194423800</updated>
+    </task>
+    <task id="LOCAL-00005" summary="peepee">
+      <created>1579194440850</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579194440850</updated>
+    </task>
+    <task id="LOCAL-00006" summary="peepee">
+      <created>1579195200773</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579195200773</updated>
+    </task>
+    <task id="LOCAL-00007" summary="peepee">
+      <created>1579196277029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579196277029</updated>
+    </task>
+    <task id="LOCAL-00008" summary="peepee">
+      <created>1579196604148</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579196604148</updated>
+    </task>
+    <task id="LOCAL-00009" summary="peepee">
+      <created>1579285046974</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579285046974</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge branch 'master' of https://github.com/T3chy/APCSP&#10;&#10;# Conflicts:&#10;#&#9;MPS/Centrifyer.py&#10;#&#9;My Python Scripts/Centrifier.py&#10;#&#9;My Python Scripts/Centrifyer.py">
+      <created>1580401778375</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580401778375</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge branch 'master' of https://github.com/T3chy/APCSP&#10;&#10;# Conflicts:&#10;#&#9;MPS/Centrifyer.py&#10;#&#9;My Python Scripts/Centrifier.py&#10;#&#9;My Python Scripts/Centrifyer.py">
+      <created>1580405713289</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580405713289</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20892857" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.27797619" side_tool="true" visible="true" weight="0.23903508" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.7220238" visible="true" weight="0.23903508" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49880952" weight="0.32894737" />
+      <window_info anchor="bottom" id="Python Console" order="0" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49880952" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.49940476" weight="0.32894737" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49880952" weight="0.32894737" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="peepee" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/T3chy/APCSP&#10;&#10;# Conflicts:&#10;#&#9;MPS/Centrifyer.py&#10;#&#9;My Python Scripts/Centrifier.py&#10;#&#9;My Python Scripts/Centrifyer.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/T3chy/APCSP&#10;&#10;# Conflicts:&#10;#&#9;MPS/Centrifyer.py&#10;#&#9;My Python Scripts/Centrifier.py&#10;#&#9;My Python Scripts/Centrifyer.py" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../Lib/site-packages/PIL/Image.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Centrifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/matplotlib/backends/backend_agg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Centrifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="16" lean-forward="true" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Centrifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Centrifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" selection-start-line="98" selection-end-line="115" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Centrifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="61" selection-start-line="93" selection-start-column="61" selection-end-line="93" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/numpy/_distributor_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Centrifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPS/Centrifyer.py" />
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/numpy/_distributor_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/matplotlib/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/MPS/Centrifyer.py" />
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPS/Centrifyer.py" />
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPS/Centrifyer.py" />
+    <entry file="file://$PROJECT_DIR$/Lib/site-packages/python_twitter-3.5.dist-info/COPYING">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPS/Centrifyer.py" />
+    <entry file="file://$PROJECT_DIR$/Lib/site-packages/python_twitter-3.5.dist-info/COPYING">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPS/Centrifyer.py" />
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPS/Centrifyer.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lib/sqlite3/dbapi2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/site-packages/python_twitter-3.5.dist-info/COPYING">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/matplotlib/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/MPS/Centrifyer.py" />
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/numpy/_distributor_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/listfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Centrifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/matplotlib/backends/backend_agg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Python Scripts/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

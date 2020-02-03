@@ -1,0 +1,58 @@
+{
+  "build": "245",
+  "build_number": 245,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-32",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\ProgramData\\Anaconda3\\pkgs\\intel-openmp-2019.4-245",
+  "features": "",
+  "files": [
+    "Library/bin/libiomp5md.dll",
+    "Library/bin/libiomp5md.pdb",
+    "Library/bin/libiompstubs5md.dll"
+  ],
+  "fn": "intel-openmp-2019.4-245.tar.bz2",
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "C:\\ProgramData\\Anaconda3\\pkgs\\intel-openmp-2019.4-245",
+    "type": 1
+  },
+  "md5": "43efc8bc5b3073b2e6321a28104245a8",
+  "name": "intel-openmp",
+  "package_tarball_full_path": "C:\\ProgramData\\Anaconda3\\pkgs\\intel-openmp-2019.4-245.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libiomp5md.dll",
+        "path_type": "hardlink",
+        "sha256": "4e9ece6bf7f29a06303fc1a03e4ca54a0c08db77a337c5928f19e3087731fb1a",
+        "sha256_in_prefix": "4e9ece6bf7f29a06303fc1a03e4ca54a0c08db77a337c5928f19e3087731fb1a",
+        "size_in_bytes": 1541968
+      },
+      {
+        "_path": "Library/bin/libiomp5md.pdb",
+        "path_type": "hardlink",
+        "sha256": "8ff832e37d11bb43cfad9899688a442c5164baa2b69607470912124930be2531",
+        "sha256_in_prefix": "8ff832e37d11bb43cfad9899688a442c5164baa2b69607470912124930be2531",
+        "size_in_bytes": 4606976
+      },
+      {
+        "_path": "Library/bin/libiompstubs5md.dll",
+        "path_type": "hardlink",
+        "sha256": "c80d9785e77e4d7ae28e2a80a1968dc969e5e6ec951eefbcec8f3ff7b04cfbeb",
+        "sha256_in_prefix": "c80d9785e77e4d7ae28e2a80a1968dc969e5e6ec951eefbcec8f3ff7b04cfbeb",
+        "size_in_bytes": 99152
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f3a725dd25bacadd5411ba31d4b09962b2ec30efd726ecce7e27c089177bcfc0",
+  "size": 1691359,
+  "subdir": "win-32",
+  "timestamp": 1559526375182,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-32/intel-openmp-2019.4-245.tar.bz2",
+  "version": "2019.4"
+}

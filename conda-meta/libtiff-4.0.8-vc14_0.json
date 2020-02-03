@@ -1,0 +1,188 @@
+{
+  "build": "vc14_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-32",
+  "constrains": [],
+  "depends": [
+    "jpeg 9*",
+    "vc 14",
+    "zlib 1.2.11"
+  ],
+  "extracted_package_dir": "C:\\ProgramData\\Anaconda3\\pkgs\\libtiff-4.0.8-vc14_0",
+  "features": "",
+  "files": [
+    "Library/bin/libtiff.dll",
+    "Library/include/t4.h",
+    "Library/include/tif_config.h",
+    "Library/include/tif_config.vc.h",
+    "Library/include/tif_config.wince.h",
+    "Library/include/tif_dir.h",
+    "Library/include/tif_fax3.h",
+    "Library/include/tif_predict.h",
+    "Library/include/tiff.h",
+    "Library/include/tiffconf.h",
+    "Library/include/tiffconf.vc.h",
+    "Library/include/tiffconf.wince.h",
+    "Library/include/tiffio.h",
+    "Library/include/tiffiop.h",
+    "Library/include/tiffvers.h",
+    "Library/include/uvcode.h",
+    "Library/lib/libtiff.lib",
+    "Library/lib/libtiff_i.lib",
+    "Library/lib/tiff.lib"
+  ],
+  "fn": "libtiff-4.0.8-vc14_0.tar.bz2",
+  "license": "HPND",
+  "link": {
+    "source": "C:\\ProgramData\\Anaconda3\\pkgs\\libtiff-4.0.8-vc14_0",
+    "type": 1
+  },
+  "md5": "2e47f8d3f70b0c173b1524fec6375109",
+  "name": "libtiff",
+  "package_tarball_full_path": "C:\\ProgramData\\Anaconda3\\pkgs\\libtiff-4.0.8-vc14_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libtiff.dll",
+        "path_type": "hardlink",
+        "sha256": "aa99e9ed84beebbd0ce9d89957c1173b7a2bb4cec0ba515b5fdd12d2128f520d",
+        "sha256_in_prefix": "aa99e9ed84beebbd0ce9d89957c1173b7a2bb4cec0ba515b5fdd12d2128f520d",
+        "size_in_bytes": 506880
+      },
+      {
+        "_path": "Library/include/t4.h",
+        "path_type": "hardlink",
+        "sha256": "d368071a6076cdc7ab1546dbe15c937f36c6367f75e6cfebe3064d1055a4611d",
+        "sha256_in_prefix": "d368071a6076cdc7ab1546dbe15c937f36c6367f75e6cfebe3064d1055a4611d",
+        "size_in_bytes": 11379
+      },
+      {
+        "_path": "Library/include/tif_config.h",
+        "path_type": "hardlink",
+        "sha256": "7fa17b7ee2adef9529938186ed9f3bca59ae4f8a466cc9cd63d6230f4061d9fe",
+        "sha256_in_prefix": "7fa17b7ee2adef9529938186ed9f3bca59ae4f8a466cc9cd63d6230f4061d9fe",
+        "size_in_bytes": 3147
+      },
+      {
+        "_path": "Library/include/tif_config.vc.h",
+        "path_type": "hardlink",
+        "sha256": "7fa17b7ee2adef9529938186ed9f3bca59ae4f8a466cc9cd63d6230f4061d9fe",
+        "sha256_in_prefix": "7fa17b7ee2adef9529938186ed9f3bca59ae4f8a466cc9cd63d6230f4061d9fe",
+        "size_in_bytes": 3147
+      },
+      {
+        "_path": "Library/include/tif_config.wince.h",
+        "path_type": "hardlink",
+        "sha256": "0a2c2459de18bbc5bd6c36683bc55d614c8c20b4260b98f420bc74624bb12369",
+        "sha256_in_prefix": "0a2c2459de18bbc5bd6c36683bc55d614c8c20b4260b98f420bc74624bb12369",
+        "size_in_bytes": 1852
+      },
+      {
+        "_path": "Library/include/tif_dir.h",
+        "path_type": "hardlink",
+        "sha256": "715e7c03f4eb9f776143986e438fa92b78d68ce167db62d1a3c5b203047644a5",
+        "sha256_in_prefix": "715e7c03f4eb9f776143986e438fa92b78d68ce167db62d1a3c5b203047644a5",
+        "size_in_bytes": 10918
+      },
+      {
+        "_path": "Library/include/tif_fax3.h",
+        "path_type": "hardlink",
+        "sha256": "6fd081cfd635c640def2d5fdf710d938fa2dcf64073058fa3a8db212241e0223",
+        "sha256_in_prefix": "6fd081cfd635c640def2d5fdf710d938fa2dcf64073058fa3a8db212241e0223",
+        "size_in_bytes": 16413
+      },
+      {
+        "_path": "Library/include/tif_predict.h",
+        "path_type": "hardlink",
+        "sha256": "d15462168550cc9b89801eba160dbc0101c9b235b1a9596bb97ab2b38993c7e2",
+        "sha256_in_prefix": "d15462168550cc9b89801eba160dbc0101c9b235b1a9596bb97ab2b38993c7e2",
+        "size_in_bytes": 2964
+      },
+      {
+        "_path": "Library/include/tiff.h",
+        "path_type": "hardlink",
+        "sha256": "817fc7dacfc7499ca60575fbd6d9d52f661fa11e21bf9a16165673c0b1bf4e1a",
+        "sha256_in_prefix": "817fc7dacfc7499ca60575fbd6d9d52f661fa11e21bf9a16165673c0b1bf4e1a",
+        "size_in_bytes": 35983
+      },
+      {
+        "_path": "Library/include/tiffconf.h",
+        "path_type": "hardlink",
+        "sha256": "7236057a722033056022f3ee1122a42406a8f62f23c673e5ec06e08e42455f02",
+        "sha256_in_prefix": "7236057a722033056022f3ee1122a42406a8f62f23c673e5ec06e08e42455f02",
+        "size_in_bytes": 3902
+      },
+      {
+        "_path": "Library/include/tiffconf.vc.h",
+        "path_type": "hardlink",
+        "sha256": "7236057a722033056022f3ee1122a42406a8f62f23c673e5ec06e08e42455f02",
+        "sha256_in_prefix": "7236057a722033056022f3ee1122a42406a8f62f23c673e5ec06e08e42455f02",
+        "size_in_bytes": 3902
+      },
+      {
+        "_path": "Library/include/tiffconf.wince.h",
+        "path_type": "hardlink",
+        "sha256": "e832c2c9dd7d446364f1b6b6065dc690d755ca395440d8a65816a0c6498fa1fb",
+        "sha256_in_prefix": "e832c2c9dd7d446364f1b6b6065dc690d755ca395440d8a65816a0c6498fa1fb",
+        "size_in_bytes": 3346
+      },
+      {
+        "_path": "Library/include/tiffio.h",
+        "path_type": "hardlink",
+        "sha256": "6d98b037201bbfb8a56a1947d08be85dfb1e4850eac2fc72ef850be0000dab7b",
+        "sha256_in_prefix": "6d98b037201bbfb8a56a1947d08be85dfb1e4850eac2fc72ef850be0000dab7b",
+        "size_in_bytes": 23227
+      },
+      {
+        "_path": "Library/include/tiffiop.h",
+        "path_type": "hardlink",
+        "sha256": "39f7d59d07e47c0b5a4cbe8dec603ebebbeb047d060044ba46c6327c7fb6e880",
+        "sha256_in_prefix": "39f7d59d07e47c0b5a4cbe8dec603ebebbeb047d060044ba46c6327c7fb6e880",
+        "size_in_bytes": 18408
+      },
+      {
+        "_path": "Library/include/tiffvers.h",
+        "path_type": "hardlink",
+        "sha256": "e6cfd4afa764a8778218d8d26c19a96c9a530f51a387e5632f6b5a1b2586ae55",
+        "sha256_in_prefix": "e6cfd4afa764a8778218d8d26c19a96c9a530f51a387e5632f6b5a1b2586ae55",
+        "size_in_bytes": 410
+      },
+      {
+        "_path": "Library/include/uvcode.h",
+        "path_type": "hardlink",
+        "sha256": "a3f20294e5d6164eae7a1f6c4874dc4c97f3111718c69b9abf0e92f063087e0e",
+        "sha256_in_prefix": "a3f20294e5d6164eae7a1f6c4874dc4c97f3111718c69b9abf0e92f063087e0e",
+        "size_in_bytes": 5641
+      },
+      {
+        "_path": "Library/lib/libtiff.lib",
+        "path_type": "hardlink",
+        "sha256": "137e3f65df21883561a9a4d8fc0d0d47fc6a3b63517f5373c503a4505a004472",
+        "sha256_in_prefix": "137e3f65df21883561a9a4d8fc0d0d47fc6a3b63517f5373c503a4505a004472",
+        "size_in_bytes": 694822
+      },
+      {
+        "_path": "Library/lib/libtiff_i.lib",
+        "path_type": "hardlink",
+        "sha256": "4ab34b87d15999e1e415adcbda94d49b271e83d2d3a5b3d35dd3dd88c1c9304c",
+        "sha256_in_prefix": "4ab34b87d15999e1e415adcbda94d49b271e83d2d3a5b3d35dd3dd88c1c9304c",
+        "size_in_bytes": 36700
+      },
+      {
+        "_path": "Library/lib/tiff.lib",
+        "path_type": "hardlink",
+        "sha256": "137e3f65df21883561a9a4d8fc0d0d47fc6a3b63517f5373c503a4505a004472",
+        "sha256_in_prefix": "137e3f65df21883561a9a4d8fc0d0d47fc6a3b63517f5373c503a4505a004472",
+        "size_in_bytes": 694822
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "88b7f98820aa4eb62d67c191c24995badfadbefabda1a396e7be1c4a94149065",
+  "size": 485880,
+  "subdir": "win-32",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-32/libtiff-4.0.8-vc14_0.tar.bz2",
+  "version": "4.0.8"
+}

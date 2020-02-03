@@ -1,0 +1,66 @@
+{
+  "build": "vc14_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-32",
+  "constrains": [],
+  "depends": [
+    "vc 14"
+  ],
+  "extracted_package_dir": "C:\\ProgramData\\Anaconda3\\pkgs\\sqlite-3.22.0-vc14_0",
+  "features": "",
+  "files": [
+    "Library/bin/sqlite3.dll",
+    "Library/bin/sqlite3.exe",
+    "Library/include/sqlite3.h",
+    "Library/lib/sqlite3.lib"
+  ],
+  "fn": "sqlite-3.22.0-vc14_0.tar.bz2",
+  "license": "Public-Domain (http://www.sqlite.org/copyright.html)",
+  "link": {
+    "source": "C:\\ProgramData\\Anaconda3\\pkgs\\sqlite-3.22.0-vc14_0",
+    "type": 1
+  },
+  "md5": "bfc10fc0389027cfee6ddae76b4d6b96",
+  "name": "sqlite",
+  "package_tarball_full_path": "C:\\ProgramData\\Anaconda3\\pkgs\\sqlite-3.22.0-vc14_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/sqlite3.dll",
+        "path_type": "hardlink",
+        "sha256": "5f57d97c25f4b81b31ba01e6c4252b5362e092b10d293f6a7ad8388a2ad56f3e",
+        "sha256_in_prefix": "5f57d97c25f4b81b31ba01e6c4252b5362e092b10d293f6a7ad8388a2ad56f3e",
+        "size_in_bytes": 758784
+      },
+      {
+        "_path": "Library/bin/sqlite3.exe",
+        "path_type": "hardlink",
+        "sha256": "fa3c756d98ebaa044f42c37f8fb3f25327996b204354eb5943e43dabc1dfe85d",
+        "sha256_in_prefix": "fa3c756d98ebaa044f42c37f8fb3f25327996b204354eb5943e43dabc1dfe85d",
+        "size_in_bytes": 986112
+      },
+      {
+        "_path": "Library/include/sqlite3.h",
+        "path_type": "hardlink",
+        "sha256": "0548e961fa2f0999481e18e55487098dce8065110d7df960bb770197607c6f9c",
+        "sha256_in_prefix": "0548e961fa2f0999481e18e55487098dce8065110d7df960bb770197607c6f9c",
+        "size_in_bytes": 515992
+      },
+      {
+        "_path": "Library/lib/sqlite3.lib",
+        "path_type": "hardlink",
+        "sha256": "641449e2cbc9c563a353e1f89c7238c95fe9e0b590b29f1974993280ccbc24e8",
+        "sha256_in_prefix": "641449e2cbc9c563a353e1f89c7238c95fe9e0b590b29f1974993280ccbc24e8",
+        "size_in_bytes": 56766
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f188bf7db4afbcfeccd14668c97cf2aa89d613d966c03f5cbceb4cdc25f256f3",
+  "size": 880360,
+  "subdir": "win-32",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-32/sqlite-3.22.0-vc14_0.tar.bz2",
+  "version": "3.22.0"
+}

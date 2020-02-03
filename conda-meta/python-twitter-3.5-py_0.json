@@ -1,0 +1,230 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "future",
+    "python",
+    "requests",
+    "requests-oauthlib"
+  ],
+  "extracted_package_dir": "C:\\ProgramData\\Anaconda3\\pkgs\\python-twitter-3.5-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/python_twitter-3.5.dist-info/AUTHORS.rst",
+    "Lib/site-packages/python_twitter-3.5.dist-info/COPYING",
+    "Lib/site-packages/python_twitter-3.5.dist-info/INSTALLER",
+    "Lib/site-packages/python_twitter-3.5.dist-info/LICENSE",
+    "Lib/site-packages/python_twitter-3.5.dist-info/METADATA",
+    "Lib/site-packages/python_twitter-3.5.dist-info/NOTICE",
+    "Lib/site-packages/python_twitter-3.5.dist-info/RECORD",
+    "Lib/site-packages/python_twitter-3.5.dist-info/WHEEL",
+    "Lib/site-packages/python_twitter-3.5.dist-info/top_level.txt",
+    "Lib/site-packages/twitter/__init__.py",
+    "Lib/site-packages/twitter/_file_cache.py",
+    "Lib/site-packages/twitter/api.py",
+    "Lib/site-packages/twitter/debug.py",
+    "Lib/site-packages/twitter/error.py",
+    "Lib/site-packages/twitter/models.py",
+    "Lib/site-packages/twitter/parse_tweet.py",
+    "Lib/site-packages/twitter/ratelimit.py",
+    "Lib/site-packages/twitter/twitter_utils.py",
+    "Lib/site-packages/twitter/__pycache__/__init__.cpython-36.pyc",
+    "Lib/site-packages/twitter/__pycache__/_file_cache.cpython-36.pyc",
+    "Lib/site-packages/twitter/__pycache__/api.cpython-36.pyc",
+    "Lib/site-packages/twitter/__pycache__/debug.cpython-36.pyc",
+    "Lib/site-packages/twitter/__pycache__/error.cpython-36.pyc",
+    "Lib/site-packages/twitter/__pycache__/models.cpython-36.pyc",
+    "Lib/site-packages/twitter/__pycache__/parse_tweet.cpython-36.pyc",
+    "Lib/site-packages/twitter/__pycache__/ratelimit.cpython-36.pyc",
+    "Lib/site-packages/twitter/__pycache__/twitter_utils.cpython-36.pyc"
+  ],
+  "fn": "python-twitter-3.5-py_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\ProgramData\\Anaconda3\\pkgs\\python-twitter-3.5-py_0",
+    "type": 1
+  },
+  "md5": "bd5960e357b2cb6c6d4654c57661078e",
+  "name": "python-twitter",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\ProgramData\\Anaconda3\\pkgs\\python-twitter-3.5-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/python_twitter-3.5.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "f2083ad54c014def194734956253cd4a618195d968910b3748299dca17e0249b",
+        "sha256_in_prefix": "f2083ad54c014def194734956253cd4a618195d968910b3748299dca17e0249b",
+        "size_in_bytes": 718
+      },
+      {
+        "_path": "site-packages/python_twitter-3.5.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "34380a9d46423544e47937939f7d68602e6a96cc4624c7803683477153ad69d8",
+        "sha256_in_prefix": "34380a9d46423544e47937939f7d68602e6a96cc4624c7803683477153ad69d8",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "site-packages/python_twitter-3.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/python_twitter-3.5.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/python_twitter-3.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b799110a06033a5b36a8c80b27c26dce129a42f88ff915965484ddf6a6741557",
+        "sha256_in_prefix": "b799110a06033a5b36a8c80b27c26dce129a42f88ff915965484ddf6a6741557",
+        "size_in_bytes": 32536
+      },
+      {
+        "_path": "site-packages/python_twitter-3.5.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "7715b39f1659ddd63b47850f1254199e8cb0def9750968052faeff07a57bd1b0",
+        "sha256_in_prefix": "7715b39f1659ddd63b47850f1254199e8cb0def9750968052faeff07a57bd1b0",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/python_twitter-3.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "29beb68c31227ed5191a6b254600f71c82b5d2004f263ebee46c3dca5f1f10fa",
+        "sha256_in_prefix": "29beb68c31227ed5191a6b254600f71c82b5d2004f263ebee46c3dca5f1f10fa",
+        "size_in_bytes": 1703
+      },
+      {
+        "_path": "site-packages/python_twitter-3.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+        "sha256_in_prefix": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/python_twitter-3.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2e4dee6132d6f517b5f6af9863ab38626d7ab390c4367b80db73e05fda68c010",
+        "sha256_in_prefix": "2e4dee6132d6f517b5f6af9863ab38626d7ab390c4367b80db73e05fda68c010",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/twitter/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "170194c915346c080fd03f8276b72b74e54275a533ee68744d1bc5a092186566",
+        "sha256_in_prefix": "170194c915346c080fd03f8276b72b74e54275a533ee68744d1bc5a092186566",
+        "size_in_bytes": 2137
+      },
+      {
+        "_path": "site-packages/twitter/_file_cache.py",
+        "path_type": "hardlink",
+        "sha256": "e51cd09d0705fe7572c495644f5743b4cf4bd1e2c24fe1be8f4a09319700288b",
+        "sha256_in_prefix": "e51cd09d0705fe7572c495644f5743b4cf4bd1e2c24fe1be8f4a09319700288b",
+        "size_in_bytes": 3337
+      },
+      {
+        "_path": "site-packages/twitter/api.py",
+        "path_type": "hardlink",
+        "sha256": "f195c1eb91fde9b318aaa9ac6cda2353da5fad527f9133e2c2e5cf8912e1865d",
+        "sha256_in_prefix": "f195c1eb91fde9b318aaa9ac6cda2353da5fad527f9133e2c2e5cf8912e1865d",
+        "size_in_bytes": 199266
+      },
+      {
+        "_path": "site-packages/twitter/debug.py",
+        "path_type": "hardlink",
+        "sha256": "0ff1b58b6c9d5930992a476d190654ad76fdd45f39dbc234ef54b9762bc272e1",
+        "sha256_in_prefix": "0ff1b58b6c9d5930992a476d190654ad76fdd45f39dbc234ef54b9762bc272e1",
+        "size_in_bytes": 2076
+      },
+      {
+        "_path": "site-packages/twitter/error.py",
+        "path_type": "hardlink",
+        "sha256": "bdc82630eb1f1015f93cb9c5fabe2c9444ec8cf83c724932a17d50bbbab6fc70",
+        "sha256_in_prefix": "bdc82630eb1f1015f93cb9c5fabe2c9444ec8cf83c724932a17d50bbbab6fc70",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "site-packages/twitter/models.py",
+        "path_type": "hardlink",
+        "sha256": "64af411988e15bfe95adfa1d1157213ef0c076716e976a82b2fc605b75433f5f",
+        "sha256_in_prefix": "64af411988e15bfe95adfa1d1157213ef0c076716e976a82b2fc605b75433f5f",
+        "size_in_bytes": 17490
+      },
+      {
+        "_path": "site-packages/twitter/parse_tweet.py",
+        "path_type": "hardlink",
+        "sha256": "05841691a04144fd2b16718a413ea37a3eed447863bc0b2390946a84066bc7a0",
+        "sha256_in_prefix": "05841691a04144fd2b16718a413ea37a3eed447863bc0b2390946a84066bc7a0",
+        "size_in_bytes": 3607
+      },
+      {
+        "_path": "site-packages/twitter/ratelimit.py",
+        "path_type": "hardlink",
+        "sha256": "78599cbd462d3fdf06effd3b025ca49e6bd1b68defbacc67f61dcccca17d16e2",
+        "sha256_in_prefix": "78599cbd462d3fdf06effd3b025ca49e6bd1b68defbacc67f61dcccca17d16e2",
+        "size_in_bytes": 7389
+      },
+      {
+        "_path": "site-packages/twitter/twitter_utils.py",
+        "path_type": "hardlink",
+        "sha256": "dbfe0b31e12301ca7b768855941684d556e5747cb0cfa5092ec0ef02cccf016c",
+        "sha256_in_prefix": "dbfe0b31e12301ca7b768855941684d556e5747cb0cfa5092ec0ef02cccf016c",
+        "size_in_bytes": 16403
+      },
+      {
+        "_path": "Lib/site-packages/twitter/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twitter/__pycache__/_file_cache.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twitter/__pycache__/api.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twitter/__pycache__/debug.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twitter/__pycache__/error.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twitter/__pycache__/models.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twitter/__pycache__/parse_tweet.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twitter/__pycache__/ratelimit.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twitter/__pycache__/twitter_utils.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "python-twitter",
+  "sha256": "95906a3117c4c176b934c814b35cb18a51de4e98d87412ff2195d80889bccf31",
+  "size": 59475,
+  "subdir": "noarch",
+  "timestamp": 1552168699892,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-twitter-3.5-py_0.tar.bz2",
+  "version": "3.5"
+}
