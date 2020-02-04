@@ -6,7 +6,7 @@ import tweepy
 import matplotlib
 import re
 import json
-
+import Graph
 consumer_key = "wBlchO1ZEiGnv1ly1wmVplNr5"
 consumer_secret = "iyHcmJITDblWRf4Zj46r19UVbngnU8DoXkBoXCtchZpZ7kF6HT"
 access_key = "1214224530341629952-RpXwF26MvZ0KEBJTcYzwEhKHgE4vQx"
@@ -26,7 +26,7 @@ def get_tweets(username):
     api = tweepy.API(auth)
 
     # 200 tweets to be extracted
-    number_of_tweets = 200
+    #number_of_tweets = 200
     tweets = api.user_timeline(screen_name=username)
 
     # Empty Array
@@ -34,21 +34,21 @@ def get_tweets(username):
 
     # create array of tweet information: username,
     # tweet id, date/time, text
-    tweets_for_csv = [[tweet.text, tweet.date/time] for tweet in tweets]  # CSV file created
+    tweets_for_csv = [tweet.text for tweet in tweets]  # CSV file created
     for j in tweets_for_csv:
         # Appending tweets to the empty array tmp
         tmp.append([j])
 
         # Printing the tweets
     print(tmp)
-    with open('listfile.txt', 'w') as filehandle:
+    with open(r'C:\ProgramData\Anaconda3\envs\WordAnalysis\My Python Scripts\listfile.txt', 'w') as filehandle:
         for listitem in tmp:
             filehandle.write('%s\n' % listitem)
 
 bl = Blobber(analyzer=NaiveBayesAnalyzer())
 bp = input("use text list? y/n")
 if bp == "y":
-    with open('listfile.txt') as f:
+    with open(r'C:\ProgramData\Anaconda3\envs\WordAnalysis\My Python Scripts\listfile.txt') as f:
         tweet1 = f.readline()
 else:
     at = input("what's the @?")
@@ -68,12 +68,12 @@ else:
         print("The error message is: " + str(e))
     else:
         print("tweets sucessfully gathered! Caching...")
-    with open('listfile.txt') as f:
+    with open(r'C:\ProgramData\Anaconda3\envs\WordAnalysis\My Python Scripts\listfile.txt') as f:
         tweet1 = f.readline()
 tweetb = TextBlob(str(tweet1))
 print("here's your most recent tweet: " + tweet1)
 print('Counting spelling errors, please wait...')
-with open('listfile.txt') as f:
+with open(r'C:\ProgramData\Anaconda3\envs\WordAnalysis\My Python Scripts\listfile.txt') as f:
         for twt in f:
             tweetb = TextBlob(str(twt))
             if not str(tweetb) == tweetb.correct():
@@ -87,12 +87,11 @@ else:
 print("Analyzing for polarity...")
 polars = []
 twtlst = []
-with open('listfile.txt') as f:
+with open(r'C:\ProgramData\Anaconda3\envs\WordAnalysis\My Python Scripts\listfile.txt') as f:
     for t in f:
         tw = TextBlob(str(t))
         twtlst.append([t.strip('\n'), tw.sentiment.polarity]) #get polarity value added as subitem
         polars.append(tw.sentiment.polarity)
-print(polars)
 sumnum = 0
 for n in polars:
     sumnum = sumnum + n
@@ -116,4 +115,4 @@ elif abs(avgpolar) > .6 and abs(avgpolar) < .8:
 elif abs(avgpolar) > .8:
     polar = "woah there bucko, that's pretty polar"
 print("your average polarity is " + posneg + polar)
-# peepee
+Graph.graphpolardist(polars)
