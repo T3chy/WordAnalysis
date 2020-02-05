@@ -1,2 +1,4 @@
-a <- scan("data.txt", character(), quote = "")
-print(a
+a <- c(scan("data.txt"))
+a <- sort(a)
+print(a)
+plot(a)
