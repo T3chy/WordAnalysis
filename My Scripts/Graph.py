@@ -1,7 +1,7 @@
 from matplotlib import pyplot as plt
 def graphpolardist(polarlist):
     neut, low, plow, shigh, phigh, pgdp, = 0, 0, 0, 0, 0, 0
-    xlabs = ['Neutral', 'low', 'prettylow','slightlyhigh','prettyhigh','prettygoshdarnhigh']
+    xlabs = ['Neutral', 'low', 'pretty low','slightly high','pretty high','pretty gosh darn high']
     for p in polarlist:
         if p == 0:
             neut = neut + 1
@@ -16,5 +16,7 @@ def graphpolardist(polarlist):
         elif abs(p) > .8:
             pgdp = pgdp + 1
     yvals = [neut, low, plow, shigh, phigh, pgdp]
-    plt.plot(xlabs, yvals)
+    plt.xlabel("Polarity")
+    plt.ylabel("# of tweets")
+    plt.bar(xlabs, yvals)
     plt.show()
