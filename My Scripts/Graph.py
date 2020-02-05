@@ -15,6 +15,8 @@ def graphpolardist(polarlist):
            phigh = phigh + 1
         elif abs(p) > .8:
             pgdp = pgdp + 1
+    with open('My Scripts/data.txt','w') as da:
+        da.writelines(["%s\n" % item  for item in polarlist])
     yvals = [neut, low, plow, shigh, phigh, pgdp]
     plt.xlabel("Polarity")
     plt.ylabel("# of tweets")
