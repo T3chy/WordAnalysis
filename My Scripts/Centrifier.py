@@ -7,6 +7,8 @@ import matplotlib
 import re
 import json
 import Graph
+import subprocess
+
 consumer_key = "wBlchO1ZEiGnv1ly1wmVplNr5"
 consumer_secret = "iyHcmJITDblWRf4Zj46r19UVbngnU8DoXkBoXCtchZpZ7kF6HT"
 access_key = "1214224530341629952-RpXwF26MvZ0KEBJTcYzwEhKHgE4vQx"
@@ -48,7 +50,7 @@ def get_tweets(username):
 bl = Blobber(analyzer=NaiveBayesAnalyzer())
 bp = input("use text list? y/n")
 if bp == "y":
-    with open(dir) as f:
+    with open(dir, encoding="utf8") as f:
         tweet1 = f.readline()
 else:
     at = input("what's the @?")
@@ -68,12 +70,12 @@ else:
         print("The error message is: " + str(e))
     else:
         print("tweets sucessfully gathered! Caching...")
-    with open(dir) as f:
+    with open(dir, encoding="utf8") as f:
         tweet1 = f.readline()
 tweetb = TextBlob(str(tweet1))
 print("here's your most recent tweet: " + tweet1)
 print('Counting spelling errors, please wait...')
-with open(dir) as f:
+with open(dir, encoding="utf8") as f:
         for twt in f:
             tweetb = TextBlob(str(twt))
             if not str(tweetb) == tweetb.correct():
@@ -87,7 +89,7 @@ else:
 print("Analyzing for polarity...")
 polars = []
 twtlst = []
-with open(dir) as f:
+with open(dir, encoding="utf8") as f:
     for t in f:
         tw = TextBlob(str(t))
         twtlst.append([t.strip('\n'), tw.sentiment.polarity]) #get polarity value added as subitem
@@ -117,3 +119,4 @@ elif abs(avgpolar) > .8:
 print("your average polarity is " + posneg + polar)
 print("generating graph...")
 Graph.graphpolardist(polars)
+subprocess.check_call(['Rscript','My Scripts\test.R'], shell=False)
