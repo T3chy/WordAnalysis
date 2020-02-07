@@ -14,7 +14,7 @@ consumer_secret = "iyHcmJITDblWRf4Zj46r19UVbngnU8DoXkBoXCtchZpZ7kF6HT"
 access_key = "1214224530341629952-RpXwF26MvZ0KEBJTcYzwEhKHgE4vQx"
 access_secret = "GTa4it7WQ4pXnvu1klWlFnbMFfUSVVBw8gvu0sipWGeD7"
 numwrong = 0
-dir = r'My scripts/listfile.txt'
+dir = r'My Scripts/listfile.txt'
 
 # Function to extract tweets
 def get_tweets(username):
@@ -119,4 +119,5 @@ elif abs(avgpolar) > .8:
 print("your average polarity is " + posneg + polar)
 print("generating graph...")
 Graph.graphpolardist(polars)
-subprocess.check_call(['Rscript','My Scripts\test.R'], shell=False)
+subprocess.run(['Rscript', '"/home/t3chy/anaconda3/envs/WordAnalysis/My Scripts/test.R"'])
+print("called")
