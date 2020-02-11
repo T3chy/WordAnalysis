@@ -8,13 +8,13 @@ import re
 import json
 import Graph
 import subprocess
-
+import webbrowser
 consumer_key = "wBlchO1ZEiGnv1ly1wmVplNr5"
 consumer_secret = "iyHcmJITDblWRf4Zj46r19UVbngnU8DoXkBoXCtchZpZ7kF6HT"
 access_key = "1214224530341629952-RpXwF26MvZ0KEBJTcYzwEhKHgE4vQx"
 access_secret = "GTa4it7WQ4pXnvu1klWlFnbMFfUSVVBw8gvu0sipWGeD7"
 numwrong = 0
-dir = r'My Scripts/listfile.txt'
+dir = r'/home/t3chy/anaconda3/envs/WordAnalysis/My Scripts/listfile.txt'
 
 # Function to extract tweets
 def get_tweets(username):
@@ -119,5 +119,6 @@ elif abs(avgpolar) > .8:
 print("your average polarity is " + posneg + polar)
 print("generating graph...")
 Graph.graphpolardist(polars)
-subprocess.run(['Rscript', '"/home/t3chy/anaconda3/envs/WordAnalysis/My Scripts/test.R"'])
+subprocess.run(['Rscript', '/home/t3chy/anaconda3/envs/WordAnalysis/My Scripts/test.R'])
 print("called")
+webbrowser.open_new(r'/home/t3chy/anaconda3/envs/WordAnalysis/My Scripts/plot.pdf')
