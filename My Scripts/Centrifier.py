@@ -9,10 +9,10 @@ import json
 import Graph
 import subprocess
 import webbrowser
-consumer_key = "wBlchO1ZEiGnv1ly1wmVplNr5"
-consumer_secret = "iyHcmJITDblWRf4Zj46r19UVbngnU8DoXkBoXCtchZpZ7kF6HT"
-access_key = "1214224530341629952-RpXwF26MvZ0KEBJTcYzwEhKHgE4vQx"
-access_secret = "GTa4it7WQ4pXnvu1klWlFnbMFfUSVVBw8gvu0sipWGeD7"
+consumer_key = "no"
+consumer_secret = "no"
+access_key = "no"
+access_secret = "no"
 numwrong = 0
 dir = r'/home/t3chy/anaconda3/envs/WordAnalysis/My Scripts/listfile.txt'
 
